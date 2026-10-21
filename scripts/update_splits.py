@@ -135,6 +135,11 @@ def main():
     if not teams:
         raise RuntimeError(f"No complete {league} moneyline games parsed; preserving prior snapshot")
     if league == "NBA":
+        if len(teams_by_game) < 2:
+            raise RuntimeError(
+                f"Only {len(teams_by_game)} NBA game(s) retrieved; "
+                "refusing to replace daily snapshot with a partial slate"
+            )
         # Cross-check count against the source's own matchup headings for today.
         # Never silently publish a truncated partial slate.
         if not expected_games or len(teams) % 2 or set(teams_by_game) != expected_games:
