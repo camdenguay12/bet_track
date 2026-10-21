@@ -1,64 +1,115 @@
 #!/usr/bin/env python3
-"""Best-effort parser for DraftKings' public, aggregated NBA moneyline splits."""
-import json, re, sys
+"""Fetch public DraftKings moneyline betting splits by league.
+
+Never invent values or overwrite a previous verified snapshot when parsing fails.
+"""
+import argparse
+import json
+import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=1"
-OUTPUT = Path("data/latest.json")
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; BetTrack/1.0; public sports analytics)"}
-TEAMS = {"Hawks","Celtics","Nets","Hornets","Bulls","Cavaliers","Mavericks","Nuggets","Pistons","Warriors","Rockets","Pacers","Clippers","Lakers","Grizzlies","Heat","Bucks","Timberwolves","Pelicans","Knicks","Thunder","Magic","76ers","Suns","Trail Blazers","Kings","Spurs","Raptors","Jazz","Wizards"}
+BASE = "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/"
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; BetTrack/1.0)"}
+LEAGUES = ("NBA", "NFL", "MLB")
+GAME = re.compile(r"^(.+?)\s+@\s+(.+?)$")
+ODDS = re.compile(r"^[+\-−–]\d{2,4}$")
+PERCENT = re.compile(r"^(\d{1,3})%$")
+DATE = re.compile(r"^\d{1,2}/\d{1,2},\s+\d{1,2}:\d{2}\s*(?:AM|PM)$", re.I)
+
+
 def parse(text):
-    lines = [re.sub(r"\\s+"," ",s).strip() for s in text.splitlines()]
-    lines = [s for s in lines if s]
-    games=[]
-    for i,line in enumerate(lines):
-        if not re.search(r"\\b(?:@| at )\\b",line): continue
-        if not any(t in line for t in TEAMS): continue
-        segment=lines[i+1:i+45]
+    lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
+    lines = [line for line in lines if line]
+    output = []
+    for i, heading in enumerate(lines):
+        match = GAME.fullmatch(heading)
+        if not match or i + 1 >= len(lines) or not DATE.fullmatch(lines[i + 1]):
+            continue
+        away, home = match.groups()
+        # Limit scanning to this game's own section.
+        end = next((j for j in range(i + 2, len(lines))
+                    if GAME.fullmatch(lines[j]) and j + 1 < len(lines)
+                    and DATE.fullmatch(lines[j + 1])), len(lines))
+        block = lines[i + 2:end]
         try:
-            m=segment.index("Moneyline")
-        except ValueError: continue
-        segment=segment[m+1:]
-        rows=[]
-        for j,s in enumerate(segment):
-            if s in ("Spread","Total","Moneyline") and j>2: break
-            if not any(t in s for t in TEAMS):continue
-            if j+3>=len(segment):continue
-            # DK table row order: team, American odds, handle %, bets %
-            odds=segment[j+1].replace("−","-").replace("–","-").replace(",","")
-            handle=segment[j+2].replace("%","")
-            bets=segment[j+3].replace("%","")
-            if not re.fullmatch(r"[+-]?\\d{2,4}",odds):continue
-            if not(handle.isdigit() and bets.isdigit()):continue
-            if not(0<=int(handle)<=100 and 0<=int(bets)<=100):continue
-            rows.append({"team":s,"odds":int(odds),"moneyPct":int(handle),"betPct":int(bets)})
-            if len(rows)==2:break
-        if len(rows)!=2:continue
-        if abs(rows[0]["betPct"]+rows[1]["betPct"]-100)>2:continue
-        if abs(rows[0]["moneyPct"]+rows[1]["moneyPct"]-100)>2:continue
-        game_id=re.sub(r"[^a-z0-9]+","-",line.lower()).strip("-")
-        for r,opp in ((rows[0],rows[1]),(rows[1],rows[0])):
-            games.append(dict(gameId=game_id,opponent=opp["team"],**r))
-    return games
+            pos = block.index("Moneyline")
+        except ValueError:
+            continue
+        block = block[pos + 1:]
+        try:
+            pos = block.index("% Bets")
+        except ValueError:
+            continue
+        block = block[pos + 1:]
+        rows = []
+        for j in range(len(block) - 3):
+            if block[j] not in (home, away):
+                continue
+            odd = block[j + 1].replace("−", "-").replace("–", "-")
+            handle = PERCENT.fullmatch(block[j + 2])
+            bets = PERCENT.fullmatch(block[j + 3])
+            if not ODDS.fullmatch(odd) or not handle or not bets:
+                continue
+            money_pct, bet_pct = int(handle.group(1)), int(bets.group(1))
+            if not (0 <= money_pct <= 100 and 0 <= bet_pct <= 100):
+                continue
+            rows.append({"team": block[j], "odds": int(odd),
+                         "moneyPct": money_pct, "betPct": bet_pct})
+            if len(rows) == 2:
+                break
+        if len(rows) != 2 or {r["team"] for r in rows} != {home, away}:
+            continue
+        if abs(sum(r["betPct"] for r in rows) - 100) > 2:
+            continue
+        if abs(sum(r["moneyPct"] for r in rows) - 100) > 2:
+            continue
+        game_id = re.sub(r"[^a-z0-9]+", "-", heading.lower()).strip("-")
+        for r, opponent in ((rows[0], rows[1]), (rows[1], rows[0])):
+            output.append({"gameId": game_id, "opponent": opponent["team"], **r})
+    return output
+
 
 def main():
-    response=requests.get(URL,headers=HEADERS,timeout=25)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--league", choices=LEAGUES, required=True)
+    args = parser.parse_args()
+    league = args.league
+    params = {"itm_content": league, "tb_edate": "n7days",
+              "tb_eg": league, "tb_emt": "Moneyline"}
+    response = requests.get(BASE, params=params, headers=HEADERS, timeout=35)
     response.raise_for_status()
-    soup=BeautifulSoup(response.text,"html.parser")
-    for element in soup(["script","style","noscript"]):element.decompose()
-    games=parse(soup.get_text("\\n"))
-    if len(games)<2:
-        raise RuntimeError("No complete NBA moneyline matchups parsed; retaining last known snapshot")
-    now=datetime.now(timezone.utc)
-    payload={"snapshotDate":now.strftime("%Y-%m-%d"),"retrievedAt":now.isoformat(),"status":"Public DraftKings snapshot","sourceUrl":URL,"note":"Aggregated all-jurisdiction public moneyline splits. Snapshot only; not necessarily the latest sportsbook screen. Values may change.","teams":games}
-    OUTPUT.parent.mkdir(exist_ok=True)
-    OUTPUT.write_text(json.dumps(payload,indent=2)+"\\n")
-    print("Updated",len(games),"teams")
-if __name__=="__main__":
-    try:main()
-    except Exception as e:
-        print("Fetch failed; no snapshot overwritten:",e,file=sys.stderr)
+    soup = BeautifulSoup(response.text, "html.parser")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    teams = parse(soup.get_text("\n"))
+    if not teams:
+        raise RuntimeError(f"No complete {league} moneyline games parsed; preserving prior snapshot")
+    now = datetime.now(timezone.utc)
+    payload = {
+        "snapshotDate": now.strftime("%Y-%m-%d"),
+        "retrievedAt": now.isoformat(),
+        "status": "Verified public DraftKings snapshot",
+        "sourceUrl": response.url,
+        "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
+        "teams": teams,
+    }
+    path = Path("data") / f"{league.lower()}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2) + "\n")
+    # Retain legacy NBA URL for existing bookmarks/consumers.
+    if league == "NBA":
+        Path("data/latest.json").write_text(json.dumps(payload, indent=2) + "\n")
+    print(f"Updated {league}: {len(teams)} teams")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print(f"Snapshot not changed: {exc}", file=sys.stderr)
         sys.exit(1)
