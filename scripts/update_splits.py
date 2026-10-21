@@ -95,6 +95,7 @@ def main():
     expected_games = set()
     session = requests.Session()
     seen_pages = set()
+    page_counts = []
     for page in range(1, 21):
         params = {**base_params, "tb_page": page}
         response = session.get(BASE, params=params, headers=HEADERS, timeout=35)
@@ -109,14 +110,15 @@ def main():
             break
         seen_pages.add(fingerprint)
         if league == "NBA":
-            normalized = [re.sub(r"\\s+", " ", v).strip() for v in page_text.splitlines()]
+            normalized = [re.sub(r"\s+", " ", v).strip() for v in page_text.splitlines()]
             normalized = [v for v in normalized if v]
             for i, line in enumerate(normalized[:-1]):
                 if GAME.fullmatch(line) and DATE.fullmatch(normalized[i + 1]):
-                    md = re.match(r"(\\d{1,2})/(\\d{1,2})", normalized[i + 1])
+                    md = re.match(r"(\d{1,2})/(\d{1,2})", normalized[i + 1])
                     if md and (int(md.group(1)), int(md.group(2))) == (today.month, today.day):
                         expected_games.add(re.sub(r"[^a-z0-9]+", "-", line.lower()).strip("-"))
         parsed = parse(page_text, target_date=today if league == "NBA" else None)
+        page_counts.append(len(parsed))
         print(f"{league}: page {page}, {len(parsed)} team rows, {len(expected_games)} dated NBA matchups listed")
         for row in parsed:
             teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
@@ -135,7 +137,7 @@ def main():
     if league == "NBA":
         # Cross-check count against the source's own matchup headings for today.
         # Never silently publish a truncated partial slate.
-        if len(teams) % 2 or set(teams_by_game) != expected_games:
+        if not expected_games or len(teams) % 2 or set(teams_by_game) != expected_games:
             raise RuntimeError(f"Incomplete NBA slate: {len(teams_by_game)} parsed of {len(expected_games)} listed games")
     now = datetime.now(timezone.utc)
     payload = {
