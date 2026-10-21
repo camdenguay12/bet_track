@@ -29,4 +29,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || (git commit -m "Refresh DraftKings betting splits" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh DraftKings betting splits"
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort
+                echo "Data conflict; refusing to overwrite newer changes."
+                exit 1
+              fi
+              if git push origin HEAD:main; then
+                echo "Published updated betting splits."
+                exit 0
+              fi
+              echo "Push raced with another commit; retrying"
+              sleep 3
+            done
+            exit 1
+          else
+            echo "No data changes to commit."
+          fi
