@@ -92,6 +92,7 @@ def main():
                    "tb_eg": group_ids[league], "tb_emt": "Moneyline"}
     teams_by_game = {}
     urls = []
+    expected_games = set()
     session = requests.Session()
     for page in range(1, 21):
         params = {**base_params, "tb_page": page}
@@ -100,7 +101,16 @@ def main():
         soup = BeautifulSoup(response.text, "html.parser")
         for tag in soup(["script", "style", "noscript"]):
             tag.decompose()
-        parsed = parse(soup.get_text("\n"), target_date=today if league == "NBA" else None)
+        page_text = soup.get_text("\n")
+        if league == "NBA":
+            normalized = [re.sub(r"\\s+", " ", v).strip() for v in page_text.splitlines()]
+            normalized = [v for v in normalized if v]
+            for i, line in enumerate(normalized[:-1]):
+                if GAME.fullmatch(line) and DATE.fullmatch(normalized[i + 1]):
+                    md = re.match(r"(\\d{1,2})/(\\d{1,2})", normalized[i + 1])
+                    if md and (int(md.group(1)), int(md.group(2))) == (today.month, today.day):
+                        expected_games.add(re.sub(r"[^a-z0-9]+", "-", line.lower()).strip("-"))
+        parsed = parse(page_text, target_date=today if league == "NBA" else None)
         for row in parsed:
             teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
         urls.append(response.url)
@@ -118,8 +128,8 @@ def main():
     if league == "NBA":
         # Cross-check count against the source's own matchup headings for today.
         # Never silently publish a truncated partial slate.
-        if len(teams) % 2:
-            raise RuntimeError("Odd number of NBA team rows")
+        if len(teams) % 2 or set(teams_by_game) != expected_games:
+            raise RuntimeError(f"Incomplete NBA slate: {len(teams_by_game)} parsed of {len(expected_games)} listed games")
     now = datetime.now(timezone.utc)
     payload = {
         "snapshotDate": today.isoformat(),
