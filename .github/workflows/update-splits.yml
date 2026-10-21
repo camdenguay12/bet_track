@@ -1,4 +1,4 @@
-name: Update DraftKings NBA splits
+name: Update DraftKings betting splits
 on:
   workflow_dispatch:
   schedule:
@@ -17,11 +17,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Retrieve public DraftKings moneyline splits
-        run: python scripts/update_splits.py
+      - name: Retrieve available public moneyline splits
+        shell: bash
+        run: |
+          for league in NBA NFL MLB; do
+            echo "Checking $league..."
+            python scripts/update_splits.py --league "$league" || echo "No verified $league update; prior snapshot retained."
+          done
       - name: Commit verified changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
-          git diff --cached --quiet || (git commit -m "Refresh DraftKings NBA betting splits" && git push)
+          git add data/
+          git diff --cached --quiet || (git commit -m "Refresh DraftKings betting splits" && git push)
