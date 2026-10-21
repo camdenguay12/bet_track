@@ -1,0 +1,24 @@
+{
+  "snapshotDate": "2026-10-18",
+  "status": "Public DraftKings snapshot · archived",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline",
+  "note": "One archived ALCS matchup from DraftKings' October 18, 2026 public page. Awaiting an automated current snapshot.",
+  "teams": [
+    {
+      "gameId": "rays-guardians-2026-10-18",
+      "team": "CLE Guardians",
+      "opponent": "TB Rays",
+      "odds": 110,
+      "betPct": 29,
+      "moneyPct": 17
+    },
+    {
+      "gameId": "rays-guardians-2026-10-18",
+      "team": "TB Rays",
+      "opponent": "CLE Guardians",
+      "odds": -132,
+      "betPct": 71,
+      "moneyPct": 83
+    }
+  ]
+}
