@@ -1,25 +1,185 @@
 {
   "snapshotDate": "2026-10-21",
-  "retrievedAt": "2026-10-21T20:00:13.831482+00:00",
-  "status": "Verified public DraftKings snapshot",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
-  "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
+  "retrievedAt": "2026-10-21T20:04:28.175Z",
+  "status": "Manual DraftKings public moneyline snapshot — 11 games verified",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=42648&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
+  "note": "All 11 October 21 NBA matchups transcribed from DraftKings public splits pages 1–2. Figures are a point-in-time snapshot and may change.",
   "teams": [
+    {
+      "gameId": "mil-bucks-was-wizards",
+      "opponent": "MIL Bucks",
+      "team": "WAS Wizards",
+      "odds": -175,
+      "moneyPct": 92,
+      "betPct": 78
+    },
+    {
+      "gameId": "mil-bucks-was-wizards",
+      "opponent": "WAS Wizards",
+      "team": "MIL Bucks",
+      "odds": 145,
+      "moneyPct": 8,
+      "betPct": 22
+    },
+    {
+      "gameId": "atl-hawks-orl-magic",
+      "opponent": "ATL Hawks",
+      "team": "ORL Magic",
+      "odds": -130,
+      "moneyPct": 83,
+      "betPct": 68
+    },
+    {
+      "gameId": "atl-hawks-orl-magic",
+      "opponent": "ORL Magic",
+      "team": "ATL Hawks",
+      "odds": 110,
+      "moneyPct": 17,
+      "betPct": 32
+    },
+    {
+      "gameId": "min-timberwolves-mia-heat",
+      "opponent": "MIN Timberwolves",
+      "team": "MIA Heat",
+      "odds": -122,
+      "moneyPct": 30,
+      "betPct": 36
+    },
+    {
+      "gameId": "min-timberwolves-mia-heat",
+      "opponent": "MIA Heat",
+      "team": "MIN Timberwolves",
+      "odds": 102,
+      "moneyPct": 70,
+      "betPct": 64
+    },
+    {
+      "gameId": "chi-bulls-tor-raptors",
+      "opponent": "CHI Bulls",
+      "team": "TOR Raptors",
+      "odds": -440,
+      "moneyPct": 88,
+      "betPct": 90
+    },
+    {
+      "gameId": "chi-bulls-tor-raptors",
+      "opponent": "TOR Raptors",
+      "team": "CHI Bulls",
+      "odds": 340,
+      "moneyPct": 12,
+      "betPct": 10
+    },
+    {
+      "gameId": "cha-hornets-bkn-nets",
+      "opponent": "CHA Hornets",
+      "team": "BKN Nets",
+      "odds": -102,
+      "moneyPct": 69,
+      "betPct": 47
+    },
+    {
+      "gameId": "cha-hornets-bkn-nets",
+      "opponent": "BKN Nets",
+      "team": "CHA Hornets",
+      "odds": -118,
+      "moneyPct": 31,
+      "betPct": 53
+    },
     {
       "gameId": "ind-pacers-no-pelicans",
       "opponent": "IND Pacers",
       "team": "NO Pelicans",
       "odds": 130,
-      "moneyPct": 15,
-      "betPct": 16
+      "moneyPct": 17,
+      "betPct": 17
     },
     {
       "gameId": "ind-pacers-no-pelicans",
       "opponent": "NO Pelicans",
       "team": "IND Pacers",
       "odds": -155,
-      "moneyPct": 85,
-      "betPct": 84
+      "moneyPct": 83,
+      "betPct": 83
+    },
+    {
+      "gameId": "uta-jazz-mem-grizzlies",
+      "opponent": "UTA Jazz",
+      "team": "MEM Grizzlies",
+      "odds": -125,
+      "moneyPct": 10,
+      "betPct": 32
+    },
+    {
+      "gameId": "uta-jazz-mem-grizzlies",
+      "opponent": "MEM Grizzlies",
+      "team": "UTA Jazz",
+      "odds": 105,
+      "moneyPct": 90,
+      "betPct": 68
+    },
+    {
+      "gameId": "dal-mavericks-hou-rockets",
+      "opponent": "DAL Mavericks",
+      "team": "HOU Rockets",
+      "odds": -440,
+      "moneyPct": 21,
+      "betPct": 76
+    },
+    {
+      "gameId": "dal-mavericks-hou-rockets",
+      "opponent": "HOU Rockets",
+      "team": "DAL Mavericks",
+      "odds": 340,
+      "moneyPct": 79,
+      "betPct": 24
+    },
+    {
+      "gameId": "gs-warriors-la-lakers",
+      "opponent": "GS Warriors",
+      "team": "LA Lakers",
+      "odds": -230,
+      "moneyPct": 50,
+      "betPct": 73
+    },
+    {
+      "gameId": "gs-warriors-la-lakers",
+      "opponent": "LA Lakers",
+      "team": "GS Warriors",
+      "odds": 190,
+      "moneyPct": 50,
+      "betPct": 27
+    },
+    {
+      "gameId": "pho-suns-por-trail-blazers",
+      "opponent": "PHO Suns",
+      "team": "POR Trail Blazers",
+      "odds": -142,
+      "moneyPct": 81,
+      "betPct": 67
+    },
+    {
+      "gameId": "pho-suns-por-trail-blazers",
+      "opponent": "POR Trail Blazers",
+      "team": "PHO Suns",
+      "odds": 120,
+      "moneyPct": 19,
+      "betPct": 33
+    },
+    {
+      "gameId": "sac-kings-la-clippers",
+      "opponent": "SAC Kings",
+      "team": "LA Clippers",
+      "odds": -185,
+      "moneyPct": 74,
+      "betPct": 83
+    },
+    {
+      "gameId": "sac-kings-la-clippers",
+      "opponent": "LA Clippers",
+      "team": "SAC Kings",
+      "odds": 154,
+      "moneyPct": 26,
+      "betPct": 17
     }
   ]
 }
