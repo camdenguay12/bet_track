@@ -1,7 +1,40 @@
 {
-  "snapshotDate": null,
-  "status": "Awaiting verified DraftKings snapshot",
+  "snapshotDate": "2026-10-21",
+  "status": "Verified public DraftKings page snapshot · manual",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "No verified NBA snapshot available yet.",
-  "teams": []
+  "note": "Verified directly against the public DraftKings betting splits page on October 21. This is not an automated live retrieval; refresh checks for newer published repository data.",
+  "teams": [
+    {
+      "gameId": "mil-was-2026-10-21",
+      "team": "WAS Wizards",
+      "opponent": "MIL Bucks",
+      "odds": -175,
+      "moneyPct": 91,
+      "betPct": 81
+    },
+    {
+      "gameId": "mil-was-2026-10-21",
+      "team": "MIL Bucks",
+      "opponent": "WAS Wizards",
+      "odds": 145,
+      "moneyPct": 9,
+      "betPct": 19
+    },
+    {
+      "gameId": "atl-orl-2026-10-21",
+      "team": "ORL Magic",
+      "opponent": "ATL Hawks",
+      "odds": -130,
+      "moneyPct": 69,
+      "betPct": 69
+    },
+    {
+      "gameId": "atl-orl-2026-10-21",
+      "team": "ATL Hawks",
+      "opponent": "ORL Magic",
+      "odds": 110,
+      "moneyPct": 31,
+      "betPct": 31
+    }
+  ]
 }
