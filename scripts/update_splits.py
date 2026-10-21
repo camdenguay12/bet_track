@@ -8,6 +8,7 @@ import json
 import re
 import sys
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -22,7 +23,7 @@ PERCENT = re.compile(r"^(\d{1,3})%$")
 DATE = re.compile(r"^\d{1,2}/\d{1,2},\s+\d{1,2}:\d{2}\s*(?:AM|PM)$", re.I)
 
 
-def parse(text):
+def parse(text, target_date=None):
     lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
     lines = [line for line in lines if line]
     output = []
@@ -31,6 +32,10 @@ def parse(text):
         if not match or i + 1 >= len(lines) or not DATE.fullmatch(lines[i + 1]):
             continue
         away, home = match.groups()
+        if target_date is not None:
+            md = re.match(r"(\d{1,2})/(\d{1,2})", lines[i + 1])
+            if not md or (int(md.group(1)), int(md.group(2))) != (target_date.month, target_date.day):
+                continue
         # Limit scanning to this game's own section.
         end = next((j for j in range(i + 2, len(lines))
                     if GAME.fullmatch(lines[j]) and j + 1 < len(lines)
@@ -79,22 +84,48 @@ def main():
     parser.add_argument("--league", choices=LEAGUES, required=True)
     args = parser.parse_args()
     league = args.league
-    params = {"itm_content": league, "tb_edate": "n7days",
-              "tb_eg": league, "tb_emt": "Moneyline"}
-    response = requests.get(BASE, params=params, headers=HEADERS, timeout=35)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
-    for tag in soup(["script", "style", "noscript"]):
-        tag.decompose()
-    teams = parse(soup.get_text("\n"))
+    today = datetime.now(ZoneInfo("America/New_York")).date()
+    # NBA: DraftKings NBA event group 42648. Its moneyline table is paginated.
+    # Request every page, then merge only today's complete games.
+    group_ids = {"NBA": "42648", "NFL": "88808", "MLB": "84240"}
+    base_params = {"itm_content": league, "tb_edate": "n7days",
+                   "tb_eg": group_ids[league], "tb_emt": "Moneyline"}
+    teams_by_game = {}
+    urls = []
+    session = requests.Session()
+    for page in range(1, 21):
+        params = {**base_params, "tb_page": page}
+        response = session.get(BASE, params=params, headers=HEADERS, timeout=35)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+        parsed = parse(soup.get_text("\n"), target_date=today if league == "NBA" else None)
+        for row in parsed:
+            teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
+        urls.append(response.url)
+        # A page is final only when there is no explicit Next pagination link.
+        next_links = [a for a in soup.select("a[href]")
+                      if a.get_text(" ", strip=True).lower() in ("next", "next »", "›")]
+        if not next_links:
+            break
+    else:
+        raise RuntimeError("Pagination limit reached; refusing incomplete snapshot")
+    teams = [row for game in teams_by_game.values() if len(game) == 2
+             for row in game.values()]
     if not teams:
         raise RuntimeError(f"No complete {league} moneyline games parsed; preserving prior snapshot")
+    if league == "NBA":
+        # Cross-check count against the source's own matchup headings for today.
+        # Never silently publish a truncated partial slate.
+        if len(teams) % 2:
+            raise RuntimeError("Odd number of NBA team rows")
     now = datetime.now(timezone.utc)
     payload = {
-        "snapshotDate": now.strftime("%Y-%m-%d"),
+        "snapshotDate": today.isoformat(),
         "retrievedAt": now.isoformat(),
         "status": "Verified public DraftKings snapshot",
-        "sourceUrl": response.url,
+        "sourceUrl": urls[0],
         "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
         "teams": teams,
     }
