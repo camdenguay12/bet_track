@@ -1,40 +1,25 @@
 {
   "snapshotDate": "2026-10-21",
-  "status": "Verified public DraftKings page snapshot · manual",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Verified directly against the public DraftKings betting splits page on October 21. This is not an automated live retrieval; refresh checks for newer published repository data.",
+  "retrievedAt": "2026-10-21T20:00:13.831482+00:00",
+  "status": "Verified public DraftKings snapshot",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
+  "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
   "teams": [
     {
-      "gameId": "mil-was-2026-10-21",
-      "team": "WAS Wizards",
-      "opponent": "MIL Bucks",
-      "odds": -175,
-      "moneyPct": 91,
-      "betPct": 81
+      "gameId": "ind-pacers-no-pelicans",
+      "opponent": "IND Pacers",
+      "team": "NO Pelicans",
+      "odds": 130,
+      "moneyPct": 15,
+      "betPct": 16
     },
     {
-      "gameId": "mil-was-2026-10-21",
-      "team": "MIL Bucks",
-      "opponent": "WAS Wizards",
-      "odds": 145,
-      "moneyPct": 9,
-      "betPct": 19
-    },
-    {
-      "gameId": "atl-orl-2026-10-21",
-      "team": "ORL Magic",
-      "opponent": "ATL Hawks",
-      "odds": -130,
-      "moneyPct": 69,
-      "betPct": 69
-    },
-    {
-      "gameId": "atl-orl-2026-10-21",
-      "team": "ATL Hawks",
-      "opponent": "ORL Magic",
-      "odds": 110,
-      "moneyPct": 31,
-      "betPct": 31
+      "gameId": "ind-pacers-no-pelicans",
+      "opponent": "NO Pelicans",
+      "team": "IND Pacers",
+      "odds": -155,
+      "moneyPct": 85,
+      "betPct": 84
     }
   ]
 }

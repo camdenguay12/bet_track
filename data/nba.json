@@ -1,0 +1,25 @@
+{
+  "snapshotDate": "2026-10-21",
+  "retrievedAt": "2026-10-21T20:00:13.831482+00:00",
+  "status": "Verified public DraftKings snapshot",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
+  "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
+  "teams": [
+    {
+      "gameId": "ind-pacers-no-pelicans",
+      "opponent": "IND Pacers",
+      "team": "NO Pelicans",
+      "odds": 130,
+      "moneyPct": 15,
+      "betPct": 16
+    },
+    {
+      "gameId": "ind-pacers-no-pelicans",
+      "opponent": "NO Pelicans",
+      "team": "IND Pacers",
+      "odds": -155,
+      "moneyPct": 85,
+      "betPct": 84
+    }
+  ]
+}
