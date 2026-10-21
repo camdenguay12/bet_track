@@ -94,6 +94,7 @@ def main():
     urls = []
     expected_games = set()
     session = requests.Session()
+    seen_pages = set()
     for page in range(1, 21):
         params = {**base_params, "tb_page": page}
         response = session.get(BASE, params=params, headers=HEADERS, timeout=35)
@@ -102,6 +103,11 @@ def main():
         for tag in soup(["script", "style", "noscript"]):
             tag.decompose()
         page_text = soup.get_text("\n")
+        fingerprint = " ".join(page_text.split())
+        if fingerprint in seen_pages:
+            print(f"{league}: page {page} repeats a previous page; stopping pagination")
+            break
+        seen_pages.add(fingerprint)
         if league == "NBA":
             normalized = [re.sub(r"\\s+", " ", v).strip() for v in page_text.splitlines()]
             normalized = [v for v in normalized if v]
@@ -111,6 +117,7 @@ def main():
                     if md and (int(md.group(1)), int(md.group(2))) == (today.month, today.day):
                         expected_games.add(re.sub(r"[^a-z0-9]+", "-", line.lower()).strip("-"))
         parsed = parse(page_text, target_date=today if league == "NBA" else None)
+        print(f"{league}: page {page}, {len(parsed)} team rows, {len(expected_games)} dated NBA matchups listed")
         for row in parsed:
             teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
         urls.append(response.url)
@@ -120,7 +127,7 @@ def main():
         if not next_links:
             break
     else:
-        raise RuntimeError("Pagination limit reached; refusing incomplete snapshot")
+        raise RuntimeError("20 distinct pages encountered; refusing possibly incomplete snapshot")
     teams = [row for game in teams_by_game.values() if len(game) == 2
              for row in game.values()]
     if not teams:
