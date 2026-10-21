@@ -88,7 +88,7 @@ def main():
     # NBA: DraftKings NBA event group 42648. Its moneyline table is paginated.
     # Request every page, then merge only today's complete games.
     group_ids = {"NBA": "42648", "NFL": "88808", "MLB": "84240"}
-    base_params = {"itm_content": league, "tb_edate": "n7days",
+    base_params = {"itm_content": group_ids[league], "tb_edate": "n7days",
                    "tb_eg": group_ids[league], "tb_emt": "Moneyline"}
     teams_by_game = {}
     urls = []
