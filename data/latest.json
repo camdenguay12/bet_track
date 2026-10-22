@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:16.882793+00:00",
-  "status": "Action Network spread Bet % for Oct 22; Money % unavailable",
+  "status": "Oct 23 NBA DraftKings moneyline odds partly refreshed; Action Network tomorrow splits unavailable",
   "sourceUrl": "https://www.actionnetwork.com/nba/public-betting",
-  "note": "Action Network free public-betting page shows spread ticket shares, not verified moneyline ticket shares. Spread odds withheld until DraftKings-verified. Existing moneyline odds are previous snapshots.",
+  "note": "DraftKings moneyline odds populated only where confirmed; Action Network spread ticket percentages for Oct 23 not accessible yet, left blank. Money percentages blank.",
   "teams": [
     {
       "gameId": "401909093",
@@ -103,7 +103,7 @@
       "opponent": "Boston Celtics",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 114,
       "betPct": null,
       "moneyPct": null
     },
@@ -113,7 +113,7 @@
       "opponent": "New York Knicks",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -135,
       "betPct": null,
       "moneyPct": null
     },
