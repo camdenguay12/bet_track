@@ -1,25 +1,29 @@
 {
-  "snapshotDate": "2026-10-21",
-  "retrievedAt": "2026-10-21T22:35:41.417206+00:00",
-  "status": "Verified public DraftKings snapshot",
+  "snapshotDate": "2026-10-22",
+  "retrievedAt": "2026-10-22T06:24:19.671897+00:00",
+  "status": "Schedule verified; betting splits shown only when matched",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=84240&tb_edate=n7days&tb_eg=84240&tb_emt=Moneyline&tb_page=1",
-  "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
+  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
   "teams": [
     {
-      "gameId": "tb-rays-mil-brewers",
-      "opponent": "TB Rays",
-      "team": "MIL Brewers",
-      "odds": -161,
-      "moneyPct": 50,
-      "betPct": 63
+      "gameId": "401908042",
+      "team": "Tampa Bay Rays",
+      "opponent": "Milwaukee Brewers",
+      "startTime": "2026-10-24T00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
     },
     {
-      "gameId": "tb-rays-mil-brewers",
-      "opponent": "MIL Brewers",
-      "team": "TB Rays",
-      "odds": 133,
-      "moneyPct": 50,
-      "betPct": 37
+      "gameId": "401908042",
+      "team": "Milwaukee Brewers",
+      "opponent": "Tampa Bay Rays",
+      "startTime": "2026-10-24T00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
     }
   ]
 }

@@ -1,230 +1,10 @@
 {
-  "snapshotDate": "2026-10-21",
-  "retrievedAt": "2026-10-22T02:42:08.544213+00:00",
-  "status": "DraftKings public splits captured for available Oct 22 NBA matchups; other markets pending",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
-  "note": "October 22 NBA moneyline figures captured from DraftKings public betting splits page; source figures may change. Other rows remain unavailable until fetched.",
+  "snapshotDate": "2026-10-22",
+  "retrievedAt": "2026-10-22T06:24:16.882793+00:00",
+  "status": "Schedule verified; betting splits shown only when matched",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=42648&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
+  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
   "teams": [
-    {
-      "gameId": "401909834",
-      "team": "Atlanta Hawks",
-      "opponent": "Orlando Magic",
-      "startTime": "2026-10-21T23:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909834",
-      "team": "Orlando Magic",
-      "opponent": "Atlanta Hawks",
-      "startTime": "2026-10-21T23:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909835",
-      "team": "Milwaukee Bucks",
-      "opponent": "Washington Wizards",
-      "startTime": "2026-10-21T23:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909835",
-      "team": "Washington Wizards",
-      "opponent": "Milwaukee Bucks",
-      "startTime": "2026-10-21T23:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909091",
-      "team": "Minnesota Timberwolves",
-      "opponent": "Miami Heat",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909091",
-      "team": "Miami Heat",
-      "opponent": "Minnesota Timberwolves",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909836",
-      "team": "Charlotte Hornets",
-      "opponent": "Brooklyn Nets",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909836",
-      "team": "Brooklyn Nets",
-      "opponent": "Charlotte Hornets",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909837",
-      "team": "Chicago Bulls",
-      "opponent": "Toronto Raptors",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909837",
-      "team": "Toronto Raptors",
-      "opponent": "Chicago Bulls",
-      "startTime": "2026-10-21T23:30Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909838",
-      "team": "Utah Jazz",
-      "opponent": "Memphis Grizzlies",
-      "startTime": "2026-10-22T00:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909838",
-      "team": "Memphis Grizzlies",
-      "opponent": "Utah Jazz",
-      "startTime": "2026-10-22T00:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909839",
-      "team": "Indiana Pacers",
-      "opponent": "New Orleans Pelicans",
-      "startTime": "2026-10-22T00:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909839",
-      "team": "New Orleans Pelicans",
-      "opponent": "Indiana Pacers",
-      "startTime": "2026-10-22T00:00Z",
-      "gameStatus": "STATUS_FINAL",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909840",
-      "team": "Dallas Mavericks",
-      "opponent": "Houston Rockets",
-      "startTime": "2026-10-22T00:30Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909840",
-      "team": "Houston Rockets",
-      "opponent": "Dallas Mavericks",
-      "startTime": "2026-10-22T00:30Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909092",
-      "team": "Golden State Warriors",
-      "opponent": "Los Angeles Lakers",
-      "startTime": "2026-10-22T02:00Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909092",
-      "team": "Los Angeles Lakers",
-      "opponent": "Golden State Warriors",
-      "startTime": "2026-10-22T02:00Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909841",
-      "team": "Phoenix Suns",
-      "opponent": "Portland Trail Blazers",
-      "startTime": "2026-10-22T02:00Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909841",
-      "team": "Portland Trail Blazers",
-      "opponent": "Phoenix Suns",
-      "startTime": "2026-10-22T02:00Z",
-      "gameStatus": "STATUS_IN_PROGRESS",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909842",
-      "team": "Sacramento Kings",
-      "opponent": "LA Clippers",
-      "startTime": "2026-10-22T02:30Z",
-      "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
-    {
-      "gameId": "401909842",
-      "team": "LA Clippers",
-      "opponent": "Sacramento Kings",
-      "startTime": "2026-10-22T02:30Z",
-      "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
-    },
     {
       "gameId": "401909093",
       "team": "Cleveland Cavaliers",
@@ -234,7 +14,7 @@
       "odds": 120,
       "betPct": 25,
       "moneyPct": 41,
-      "splitSource": "DraftKings public moneyline table, October 22 page 2"
+      "splitsRetained": true
     },
     {
       "gameId": "401909093",
@@ -245,7 +25,7 @@
       "odds": -142,
       "betPct": 75,
       "moneyPct": 59,
-      "splitSource": "DraftKings public moneyline table, October 22 page 2"
+      "splitsRetained": true
     },
     {
       "gameId": "401909094",
@@ -256,7 +36,7 @@
       "odds": 240,
       "betPct": 40,
       "moneyPct": 59,
-      "splitSource": "DraftKings public moneyline table, October 22 page 2"
+      "splitsRetained": true
     },
     {
       "gameId": "401909094",
@@ -267,7 +47,247 @@
       "odds": -298,
       "betPct": 60,
       "moneyPct": 41,
-      "splitSource": "DraftKings public moneyline table, October 22 page 2"
+      "splitsRetained": true
+    },
+    {
+      "gameId": "401909848",
+      "team": "Chicago Bulls",
+      "opponent": "Milwaukee Bucks",
+      "startTime": "2026-10-23T20:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909848",
+      "team": "Milwaukee Bucks",
+      "opponent": "Chicago Bulls",
+      "startTime": "2026-10-23T20:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909095",
+      "team": "New York Knicks",
+      "opponent": "Boston Celtics",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909095",
+      "team": "Boston Celtics",
+      "opponent": "New York Knicks",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909843",
+      "team": "Atlanta Hawks",
+      "opponent": "Charlotte Hornets",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909843",
+      "team": "Charlotte Hornets",
+      "opponent": "Atlanta Hawks",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909844",
+      "team": "Dallas Mavericks",
+      "opponent": "Indiana Pacers",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909844",
+      "team": "Indiana Pacers",
+      "opponent": "Dallas Mavericks",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909845",
+      "team": "Minnesota Timberwolves",
+      "opponent": "Orlando Magic",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909845",
+      "team": "Orlando Magic",
+      "opponent": "Minnesota Timberwolves",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909846",
+      "team": "Toronto Raptors",
+      "opponent": "Washington Wizards",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909846",
+      "team": "Washington Wizards",
+      "opponent": "Toronto Raptors",
+      "startTime": "2026-10-23T23:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909847",
+      "team": "Detroit Pistons",
+      "opponent": "Miami Heat",
+      "startTime": "2026-10-24T00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909847",
+      "team": "Miami Heat",
+      "opponent": "Detroit Pistons",
+      "startTime": "2026-10-24T00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909096",
+      "team": "Houston Rockets",
+      "opponent": "San Antonio Spurs",
+      "startTime": "2026-10-24T01:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909096",
+      "team": "San Antonio Spurs",
+      "opponent": "Houston Rockets",
+      "startTime": "2026-10-24T01:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909849",
+      "team": "New Orleans Pelicans",
+      "opponent": "Utah Jazz",
+      "startTime": "2026-10-24T01:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909849",
+      "team": "Utah Jazz",
+      "opponent": "New Orleans Pelicans",
+      "startTime": "2026-10-24T01:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909850",
+      "team": "Memphis Grizzlies",
+      "opponent": "Golden State Warriors",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909850",
+      "team": "Golden State Warriors",
+      "opponent": "Memphis Grizzlies",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909851",
+      "team": "LA Clippers",
+      "opponent": "Los Angeles Lakers",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909851",
+      "team": "Los Angeles Lakers",
+      "opponent": "LA Clippers",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909852",
+      "team": "Portland Trail Blazers",
+      "opponent": "Sacramento Kings",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401909852",
+      "team": "Sacramento Kings",
+      "opponent": "Portland Trail Blazers",
+      "startTime": "2026-10-24T02:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
     }
   ]
 }

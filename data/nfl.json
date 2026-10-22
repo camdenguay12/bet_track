@@ -1,6 +1,6 @@
 {
-  "snapshotDate": "2026-10-21",
-  "retrievedAt": "2026-10-22T02:42:10.521435+00:00",
+  "snapshotDate": "2026-10-22",
+  "retrievedAt": "2026-10-22T06:24:18.495453+00:00",
   "status": "Schedule verified; betting splits shown only when matched",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=88808&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
   "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
@@ -280,6 +280,26 @@
       "team": "Seattle Seahawks",
       "opponent": "Kansas City Chiefs",
       "startTime": "2026-10-26T00:20Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873009",
+      "team": "Dallas Cowboys",
+      "opponent": "Philadelphia Eagles",
+      "startTime": "2026-10-27T00:15Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873009",
+      "team": "Philadelphia Eagles",
+      "opponent": "Dallas Cowboys",
+      "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": null,
       "betPct": null,
