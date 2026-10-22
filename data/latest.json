@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:16.882793+00:00",
-  "status": "Schedule verified; betting splits shown only when matched",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=42648&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
-  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
+  "status": "Action Network spread Bet % for Oct 22; Money % unavailable",
+  "sourceUrl": "https://www.actionnetwork.com/nba/public-betting",
+  "note": "Action Network free public-betting page shows spread ticket shares, not verified moneyline ticket shares. Spread odds withheld until DraftKings-verified. Existing moneyline odds are previous snapshots.",
   "teams": [
     {
       "gameId": "401909093",
@@ -12,9 +12,16 @@
       "startTime": "2026-10-22T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 120,
-      "betPct": 25,
-      "moneyPct": 41,
-      "splitsRetained": true
+      "betPct": null,
+      "moneyPct": null,
+      "splitsRetained": true,
+      "spreadMarket": {
+        "spread": 3.5,
+        "odds": null,
+        "betPct": 64,
+        "moneyPct": null
+      },
+      "betSource": "Action Network public betting, spread market"
     },
     {
       "gameId": "401909093",
@@ -23,9 +30,16 @@
       "startTime": "2026-10-22T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -142,
-      "betPct": 75,
-      "moneyPct": 59,
-      "splitsRetained": true
+      "betPct": null,
+      "moneyPct": null,
+      "splitsRetained": true,
+      "spreadMarket": {
+        "spread": -3.5,
+        "odds": null,
+        "betPct": 36,
+        "moneyPct": null
+      },
+      "betSource": "Action Network public betting, spread market"
     },
     {
       "gameId": "401909094",
@@ -34,9 +48,16 @@
       "startTime": "2026-10-23T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 240,
-      "betPct": 40,
-      "moneyPct": 59,
-      "splitsRetained": true
+      "betPct": null,
+      "moneyPct": null,
+      "splitsRetained": true,
+      "spreadMarket": {
+        "spread": 8.5,
+        "odds": null,
+        "betPct": 67,
+        "moneyPct": null
+      },
+      "betSource": "Action Network public betting, spread market"
     },
     {
       "gameId": "401909094",
@@ -45,9 +66,16 @@
       "startTime": "2026-10-23T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -298,
-      "betPct": 60,
-      "moneyPct": 41,
-      "splitsRetained": true
+      "betPct": null,
+      "moneyPct": null,
+      "splitsRetained": true,
+      "spreadMarket": {
+        "spread": -8.5,
+        "odds": null,
+        "betPct": 33,
+        "moneyPct": null
+      },
+      "betSource": "Action Network public betting, spread market"
     },
     {
       "gameId": "401909848",
