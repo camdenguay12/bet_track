@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:19.671897+00:00",
-  "status": "DraftKings Network World Series Game 1 verified splits",
+  "status": "Odds retained; awaiting verified Action Network ticket percentages",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n30days&tb_eg=84240&tb_emt=0",
-  "note": "Moneyline and run-line splits are from DraftKings Network, combining jurisdictions; app figures may differ.",
+  "note": "DraftKings moneyline odds from prior public snapshot. Action Network market-matched ticket percentages not verified; Bet % and Money % intentionally blank.",
   "teams": [
     {
       "gameId": "401908042",
@@ -12,13 +12,13 @@
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 133,
-      "betPct": 43,
-      "moneyPct": 42,
+      "betPct": null,
+      "moneyPct": null,
       "spreadMarket": {
         "spread": 1.5,
         "odds": -185,
-        "betPct": 25,
-        "moneyPct": 25
+        "betPct": null,
+        "moneyPct": null
       }
     },
     {
@@ -28,13 +28,13 @@
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -161,
-      "betPct": 57,
-      "moneyPct": 58,
+      "betPct": null,
+      "moneyPct": null,
       "spreadMarket": {
         "spread": -1.5,
         "odds": 152,
-        "betPct": 75,
-        "moneyPct": 75
+        "betPct": null,
+        "moneyPct": null
       }
     }
   ]
