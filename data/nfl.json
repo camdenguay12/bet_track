@@ -1,7 +1,289 @@
 {
-  "snapshotDate": null,
-  "status": "Awaiting verified DraftKings snapshot",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Previous sample figures were not verified against DraftKings and have been cleared. Scheduled fetch will populate this tab when validated.",
-  "teams": []
+  "snapshotDate": "2026-10-21",
+  "retrievedAt": "2026-10-22T02:42:10.521435+00:00",
+  "status": "Schedule verified; betting splits shown only when matched",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=88808&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
+  "teams": [
+    {
+      "gameId": "401873008",
+      "team": "Washington Commanders",
+      "opponent": "San Francisco 49ers",
+      "startTime": "2026-10-20T00:15Z",
+      "gameStatus": "STATUS_FINAL",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873008",
+      "team": "San Francisco 49ers",
+      "opponent": "Washington Commanders",
+      "startTime": "2026-10-20T00:15Z",
+      "gameStatus": "STATUS_FINAL",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873010",
+      "team": "New England Patriots",
+      "opponent": "Chicago Bears",
+      "startTime": "2026-10-23T00:15Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873010",
+      "team": "Chicago Bears",
+      "opponent": "New England Patriots",
+      "startTime": "2026-10-23T00:15Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873011",
+      "team": "Pittsburgh Steelers",
+      "opponent": "New Orleans Saints",
+      "startTime": "2026-10-25T13:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873011",
+      "team": "New Orleans Saints",
+      "opponent": "Pittsburgh Steelers",
+      "startTime": "2026-10-25T13:30Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873017",
+      "team": "San Francisco 49ers",
+      "opponent": "Atlanta Falcons",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873017",
+      "team": "Atlanta Falcons",
+      "opponent": "San Francisco 49ers",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873013",
+      "team": "Cleveland Browns",
+      "opponent": "Tennessee Titans",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873013",
+      "team": "Tennessee Titans",
+      "opponent": "Cleveland Browns",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873014",
+      "team": "Indianapolis Colts",
+      "opponent": "Minnesota Vikings",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873014",
+      "team": "Minnesota Vikings",
+      "opponent": "Indianapolis Colts",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873015",
+      "team": "Miami Dolphins",
+      "opponent": "New York Jets",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873015",
+      "team": "New York Jets",
+      "opponent": "Miami Dolphins",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873018",
+      "team": "Tampa Bay Buccaneers",
+      "opponent": "Carolina Panthers",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873018",
+      "team": "Carolina Panthers",
+      "opponent": "Tampa Bay Buccaneers",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873012",
+      "team": "Cincinnati Bengals",
+      "opponent": "Baltimore Ravens",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873012",
+      "team": "Baltimore Ravens",
+      "opponent": "Cincinnati Bengals",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873016",
+      "team": "New York Giants",
+      "opponent": "Houston Texans",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873016",
+      "team": "Houston Texans",
+      "opponent": "New York Giants",
+      "startTime": "2026-10-25T17:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873019",
+      "team": "Denver Broncos",
+      "opponent": "Arizona Cardinals",
+      "startTime": "2026-10-25T20:05Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873019",
+      "team": "Arizona Cardinals",
+      "opponent": "Denver Broncos",
+      "startTime": "2026-10-25T20:05Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873020",
+      "team": "Green Bay Packers",
+      "opponent": "Detroit Lions",
+      "startTime": "2026-10-25T20:25Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873020",
+      "team": "Detroit Lions",
+      "opponent": "Green Bay Packers",
+      "startTime": "2026-10-25T20:25Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873021",
+      "team": "Los Angeles Rams",
+      "opponent": "Las Vegas Raiders",
+      "startTime": "2026-10-25T20:25Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873021",
+      "team": "Las Vegas Raiders",
+      "opponent": "Los Angeles Rams",
+      "startTime": "2026-10-25T20:25Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873022",
+      "team": "Kansas City Chiefs",
+      "opponent": "Seattle Seahawks",
+      "startTime": "2026-10-26T00:20Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    },
+    {
+      "gameId": "401873022",
+      "team": "Seattle Seahawks",
+      "opponent": "Kansas City Chiefs",
+      "startTime": "2026-10-26T00:20Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null
+    }
+  ]
 }
