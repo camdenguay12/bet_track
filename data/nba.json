@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-21",
   "retrievedAt": "2026-10-22T02:42:08.544213+00:00",
-  "status": "Schedule verified; betting splits shown only when matched",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=42648&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1",
-  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
+  "status": "DraftKings public splits captured for available Oct 22 NBA matchups; other markets pending",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+  "note": "October 22 NBA moneyline figures captured from DraftKings public betting splits page; source figures may change. Other rows remain unavailable until fetched.",
   "teams": [
     {
       "gameId": "401909834",
@@ -231,9 +231,10 @@
       "opponent": "Philadelphia 76ers",
       "startTime": "2026-10-22T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": 120,
+      "betPct": 25,
+      "moneyPct": 41,
+      "splitSource": "DraftKings public moneyline table, October 22 page 2"
     },
     {
       "gameId": "401909093",
@@ -241,9 +242,10 @@
       "opponent": "Cleveland Cavaliers",
       "startTime": "2026-10-22T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": -142,
+      "betPct": 75,
+      "moneyPct": 59,
+      "splitSource": "DraftKings public moneyline table, October 22 page 2"
     },
     {
       "gameId": "401909094",
@@ -251,9 +253,10 @@
       "opponent": "Oklahoma City Thunder",
       "startTime": "2026-10-23T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": 240,
+      "betPct": 40,
+      "moneyPct": 59,
+      "splitSource": "DraftKings public moneyline table, October 22 page 2"
     },
     {
       "gameId": "401909094",
@@ -261,9 +264,10 @@
       "opponent": "Denver Nuggets",
       "startTime": "2026-10-23T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": -298,
+      "betPct": 60,
+      "moneyPct": 41,
+      "splitSource": "DraftKings public moneyline table, October 22 page 2"
     }
   ]
 }
