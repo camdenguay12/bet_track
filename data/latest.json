@@ -223,7 +223,7 @@
       "opponent": "San Antonio Spurs",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 220,
       "betPct": null,
       "moneyPct": null
     },
@@ -233,7 +233,7 @@
       "opponent": "Houston Rockets",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -270,
       "betPct": null,
       "moneyPct": null
     },
@@ -283,7 +283,7 @@
       "opponent": "Los Angeles Lakers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 300,
       "betPct": null,
       "moneyPct": null
     },
@@ -293,7 +293,7 @@
       "opponent": "LA Clippers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -380,
       "betPct": null,
       "moneyPct": null
     },
@@ -303,7 +303,7 @@
       "opponent": "Sacramento Kings",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -258,
       "betPct": null,
       "moneyPct": null
     },
@@ -313,7 +313,7 @@
       "opponent": "Portland Trail Blazers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 210,
       "betPct": null,
       "moneyPct": null
     }
