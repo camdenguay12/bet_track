@@ -201,6 +201,26 @@ def main():
     if not schedule:
         raise RuntimeError(f"No {league} scheduled games returned; preserving previous data")
     teams = attach_splits(schedule, teams)
+    # Preserve previously verified market figures for the same matchup and date
+    # when a new scrape cannot retrieve them. Never carry figures to another day.
+    previous_path = Path("data") / f"{league.lower()}.json"
+    if league == "NBA" and not previous_path.exists():
+        previous_path = Path("data/latest.json")
+    if previous_path.exists():
+        try:
+            previous = json.loads(previous_path.read_text()).get("teams", [])
+            key = lambda row: (row.get("team"), row.get("opponent"),
+                               (row.get("startTime") or "")[:10])
+            old = {key(row): row for row in previous if row.get("betPct") is not None
+                   and row.get("moneyPct") is not None and row.get("odds") is not None}
+            for row in teams:
+                prior = old.get(key(row))
+                if prior and row["betPct"] is None:
+                    for field in ("odds", "betPct", "moneyPct"):
+                        row[field] = prior[field]
+                    row["splitsRetained"] = True
+        except (ValueError, OSError, TypeError):
+            pass
     print(f"{league}: {len(schedule)} scheduled matchups, {sum(x['betPct'] is not None for x in teams)} teams with verified splits")
     now = datetime.now(timezone.utc)
     payload = {
