@@ -127,7 +127,9 @@ def fetch_schedule(session, league, today):
 
 def attach_splits(schedule, parsed):
     """Match only exact team names; unmatched games retain null betting data."""
-    aliases = lambda x: re.sub(r"[^a-z0-9]", "", x.lower())
+    def aliases(x):
+        x = x.lower().replace("la clippers", "los angeles clippers")
+        return re.sub(r"[^a-z0-9]", "", x)
     indexed = {}
     for row in parsed:
         indexed[(aliases(row["team"]), aliases(row["opponent"]))] = row
@@ -180,7 +182,7 @@ def main():
                     md = re.match(r"(\d{1,2})/(\d{1,2})", normalized[i + 1])
                     if md and (int(md.group(1)), int(md.group(2))) == (today.month, today.day):
                         expected_games.add(re.sub(r"[^a-z0-9]+", "-", line.lower()).strip("-"))
-        parsed = parse(page_text, target_date=today if league == "NBA" else None)
+        parsed = parse(page_text, target_date=None)
         page_counts.append(len(parsed))
         print(f"{league}: page {page}, {len(parsed)} team rows, {len(expected_games)} dated NBA matchups listed")
         for row in parsed:
