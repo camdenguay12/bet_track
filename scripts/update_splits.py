@@ -23,7 +23,7 @@ PERCENT = re.compile(r"^(\d{1,3})%$")
 DATE = re.compile(r"^\d{1,2}/\d{1,2},\s+\d{1,2}:\d{2}\s*(?:AM|PM)$", re.I)
 
 
-def parse(text, target_date=None):
+def parse(text, target_date=None, market="Moneyline"):
     lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
     lines = [line for line in lines if line]
     output = []
@@ -48,7 +48,7 @@ def parse(text, target_date=None):
                     and DATE.fullmatch(lines[j + 1])), len(lines))
         block = lines[i + 2:end]
         try:
-            pos = block.index("Moneyline")
+            pos = block.index(market)
         except ValueError:
             continue
         block = block[pos + 1:]
@@ -61,7 +61,16 @@ def parse(text, target_date=None):
         for j in range(len(block) - 3):
             if block[j] not in (home, away):
                 continue
-            odd = block[j + 1].replace("−", "-").replace("–", "-")
+            raw = block[j + 1].replace("−", "-").replace("–", "-")
+            spread = None
+            if market == "Spread":
+                spread_match = re.search(r"([+-]\\d+(?:\\.\\d+)?)", raw)
+                if spread_match:
+                    spread = float(spread_match.group(1))
+                price_match = re.search(r"([+-]\\d{2,4})\\s*$", raw)
+                odd = price_match.group(1) if price_match else ""
+            else:
+                odd = raw
             handle = PERCENT.fullmatch(block[j + 2])
             bets = PERCENT.fullmatch(block[j + 3])
             if not ODDS.fullmatch(odd) or not handle or not bets:
@@ -69,7 +78,7 @@ def parse(text, target_date=None):
             money_pct, bet_pct = int(handle.group(1)), int(bets.group(1))
             if not (0 <= money_pct <= 100 and 0 <= bet_pct <= 100):
                 continue
-            rows.append({"team": block[j], "odds": int(odd),
+            rows.append({"team": block[j], "spread": spread, "odds": int(odd),
                          "moneyPct": money_pct, "betPct": bet_pct})
             if len(rows) == 2:
                 break
@@ -157,7 +166,8 @@ def attach_splits(schedule, parsed):
                            "startTime": game["startTime"], "gameStatus": game["status"],
                            "odds": split["odds"] if split else None,
                            "betPct": split["betPct"] if split else None,
-                           "moneyPct": split["moneyPct"] if split else None})
+                           "moneyPct": split["moneyPct"] if split else None,
+                           "spread": split.get("spread") if split else None})
     return output
 
 def main():
@@ -171,7 +181,7 @@ def main():
     group_ids = {"NBA": "42648", "NFL": "88808", "MLB": "84240"}
     base_params = {"itm_content": group_ids[league], "tb_edate": "n7days",
                    "tb_eg": group_ids[league], "tb_emt": "Moneyline"}
-    teams_by_game = {}
+    teams_by_game = {}\n    spread_by_game = {}
     urls = []
     expected_games = set()
     session = requests.Session()
@@ -198,11 +208,11 @@ def main():
                     md = re.match(r"(\d{1,2})/(\d{1,2})", normalized[i + 1])
                     if md and (int(md.group(1)), int(md.group(2))) == (today.month, today.day):
                         expected_games.add(re.sub(r"[^a-z0-9]+", "-", line.lower()).strip("-"))
-        parsed = parse(page_text, target_date=None)
+        parsed = parse(page_text, target_date=None)\n        spread_parsed = parse(page_text, target_date=None, market="Spread")
         page_counts.append(len(parsed))
         print(f"{league}: page {page}, {len(parsed)} team rows, {len(expected_games)} dated NBA matchups listed")
         for row in parsed:
-            teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
+            teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row\n        for row in spread_parsed:\n            spread_by_game.setdefault(row["gameId"], {})[row["team"]] = row
         urls.append(response.url)
         # The DK table supports tb_page even when it has no Next anchor.
     else:
@@ -212,7 +222,7 @@ def main():
     schedule = fetch_schedule(session, league, today)
     if not schedule:
         raise RuntimeError(f"No {league} scheduled games returned; preserving previous data")
-    teams = attach_splits(schedule, teams)
+    teams = attach_splits(schedule, teams)\n    spread_teams = [row for game in spread_by_game.values() if len(game) == 2 for row in game.values()]\n    spread_rows = attach_splits(schedule, spread_teams)\n    for row, spread_row in zip(teams, spread_rows):\n        row["spreadMarket"] = {k: spread_row[k] for k in ("spread", "odds", "betPct", "moneyPct")}
     # Preserve previously verified market figures for the same matchup and date
     # when a new scrape cannot retrieve them. Never carry figures to another day.
     previous_path = Path("data") / f"{league.lower()}.json"
@@ -225,12 +235,11 @@ def main():
                                (row.get("startTime") or "")[:10])
             old = {key(row): row for row in previous if row.get("betPct") is not None
                    and row.get("moneyPct") is not None and row.get("odds") is not None}
-            for row in teams:
-                prior = old.get(key(row))
+            for row in teams:\n                prior = old.get(key(row))
                 if prior and row["betPct"] is None:
                     for field in ("odds", "betPct", "moneyPct"):
                         row[field] = prior[field]
-                    row["splitsRetained"] = True
+                    row["splitsRetained"] = True\n                if prior and row.get("spreadMarket", {}).get("betPct") is None and prior.get("spreadMarket", {}).get("betPct") is not None:\n                    row["spreadMarket"] = prior["spreadMarket"]
         except (ValueError, OSError, TypeError):
             pass
     print(f"{league}: {len(schedule)} scheduled matchups, {sum(x['betPct'] is not None for x in teams)} teams with verified splits")
