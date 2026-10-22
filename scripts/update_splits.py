@@ -90,7 +90,7 @@ def fetch_schedule(session, league, today):
     """ESPN public scoreboard schedule; no betting percentages inferred."""
     from datetime import timedelta
     dates = [today, today + timedelta(days=1)] if league != "NFL" else [
-        today + timedelta(days=offset) for offset in range(-today.weekday(), 7-today.weekday())
+        today + timedelta(days=offset) for offset in range(-today.weekday(), 8-today.weekday())
     ]
     games = {}
     sport = {"NBA": "basketball/nba", "NFL": "football/nfl", "MLB": "baseball/mlb"}[league]
@@ -126,7 +126,7 @@ def fetch_schedule(session, league, today):
 
 
 def attach_splits(schedule, parsed):
-    """Match only exact team names; unmatched games retain null betting data."""
+    """Match DraftKings abbreviated teams to scheduled games by nickname and date."""
     def aliases(x):
         # DraftKings uses abbreviations (e.g. "CLE Cavaliers") while ESPN
         # supplies city + nickname (e.g. "Cleveland Cavaliers").
