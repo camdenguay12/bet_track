@@ -32,6 +32,12 @@ def parse(text, target_date=None):
         if not match or i + 1 >= len(lines) or not DATE.fullmatch(lines[i + 1]):
             continue
         away, home = match.groups()
+        try:
+            start = datetime.strptime(lines[i + 1], "%m/%d, %I:%M %p").replace(
+                year=datetime.now(ZoneInfo("America/New_York")).year,
+                tzinfo=ZoneInfo("America/New_York"))
+        except ValueError:
+            continue
         if target_date is not None:
             md = re.match(r"(\d{1,2})/(\d{1,2})", lines[i + 1])
             if not md or (int(md.group(1)), int(md.group(2))) != (target_date.month, target_date.day):
@@ -75,7 +81,7 @@ def parse(text, target_date=None):
             continue
         game_id = re.sub(r"[^a-z0-9]+", "-", heading.lower()).strip("-")
         for r, opponent in ((rows[0], rows[1]), (rows[1], rows[0])):
-            output.append({"gameId": game_id, "opponent": opponent["team"], **r})
+            output.append({"gameId": game_id, "opponent": opponent["team"], "startTime": start.isoformat(), **r})
     return output
 
 
