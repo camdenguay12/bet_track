@@ -128,15 +128,31 @@ def fetch_schedule(session, league, today):
 def attach_splits(schedule, parsed):
     """Match only exact team names; unmatched games retain null betting data."""
     def aliases(x):
-        x = x.lower().replace("la clippers", "los angeles clippers")
-        return re.sub(r"[^a-z0-9]", "", x)
+        # DraftKings uses abbreviations (e.g. "CLE Cavaliers") while ESPN
+        # supplies city + nickname (e.g. "Cleveland Cavaliers").
+        nicknames = ("trail blazers", "76ers", "cavaliers", "thunder",
+                     "timberwolves", "pelicans", "grizzlies", "mavericks",
+                     "clippers", "lakers", "warriors", "wizards", "raptors",
+                     "celtics", "knicks", "bucks", "heat", "magic", "hawks",
+                     "nets", "bulls", "jazz", "pacers", "rockets", "suns",
+                     "nuggets", "spurs", "kings", "hornets", "pistons",
+                     "patriots", "bears", "steelers", "saints", "packers",
+                     "lions", "rams", "raiders", "chiefs", "seahawks",
+                     "cowboys", "eagles", "49ers", "commanders", "jets",
+                     "giants", "bills", "dolphins", "ravens", "bengals",
+                     "browns", "texans", "colts", "jaguars", "titans",
+                     "broncos", "chargers", "cardinals", "falcons",
+                     "panthers", "buccaneers", "vikings")
+        normalized = x.lower().replace("portland trail blazers", "por trail blazers")
+        return next((re.sub(r"[^a-z0-9]", "", n) for n in nicknames
+                     if normalized.endswith(n)), re.sub(r"[^a-z0-9]", "", normalized))
     indexed = {}
     for row in parsed:
-        indexed[(aliases(row["team"]), aliases(row["opponent"]))] = row
+        indexed[(aliases(row["team"]), aliases(row["opponent"]), row["startTime"][:10])] = row
     output = []
     for game in schedule.values():
         for team, opponent in ((game["away"], game["home"]), (game["home"], game["away"])):
-            split = indexed.get((aliases(team), aliases(opponent)))
+            split = indexed.get((aliases(team), aliases(opponent), datetime.fromisoformat(game["startTime"].replace("Z", "+00:00")).astimezone(ZoneInfo("America/New_York")).date().isoformat()))
             output.append({"gameId": game["gameId"], "team": team, "opponent": opponent,
                            "startTime": game["startTime"], "gameStatus": game["status"],
                            "odds": split["odds"] if split else None,
@@ -188,11 +204,7 @@ def main():
         for row in parsed:
             teams_by_game.setdefault(row["gameId"], {})[row["team"]] = row
         urls.append(response.url)
-        # A page is final only when there is no explicit Next pagination link.
-        next_links = [a for a in soup.select("a[href]")
-                      if a.get_text(" ", strip=True).lower() in ("next", "next »", "›")]
-        if not next_links:
-            break
+        # The DK table supports tb_page even when it has no Next anchor.
     else:
         raise RuntimeError("20 distinct pages encountered; refusing possibly incomplete snapshot")
     teams = [row for game in teams_by_game.values() if len(game) == 2
