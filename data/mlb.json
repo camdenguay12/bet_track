@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:19.671897+00:00",
-  "status": "Odds retained; awaiting verified Action Network ticket percentages",
+  "status": "DraftKings public World Series Game 1 moneyline and run-line odds refreshed",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n30days&tb_eg=84240&tb_emt=0",
-  "note": "DraftKings moneyline odds from prior public snapshot. Action Network market-matched ticket percentages not verified; Bet % and Money % intentionally blank.",
+  "note": "Odds from DraftKings public betting splits; Action Network betting ticket percentages not confirmed, left blank. Money percentages blank.",
   "teams": [
     {
       "gameId": "401908042",
@@ -16,7 +16,7 @@
       "moneyPct": null,
       "spreadMarket": {
         "spread": 1.5,
-        "odds": -185,
+        "odds": -181,
         "betPct": null,
         "moneyPct": null
       }
@@ -32,7 +32,7 @@
       "moneyPct": null,
       "spreadMarket": {
         "spread": -1.5,
-        "odds": 152,
+        "odds": 149,
         "betPct": null,
         "moneyPct": null
       }
