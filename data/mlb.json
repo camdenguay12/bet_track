@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:19.671897+00:00",
-  "status": "Schedule verified; betting splits shown only when matched",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=84240&tb_edate=n7days&tb_eg=84240&tb_emt=Moneyline&tb_page=1",
-  "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
+  "status": "DraftKings Network World Series Game 1 verified splits",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n30days&tb_eg=84240&tb_emt=0",
+  "note": "Moneyline and run-line splits are from DraftKings Network, combining jurisdictions; app figures may differ.",
   "teams": [
     {
       "gameId": "401908042",
@@ -13,7 +13,13 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 133,
       "betPct": 43,
-      "moneyPct": 42
+      "moneyPct": 42,
+      "spreadMarket": {
+        "spread": 1.5,
+        "odds": -185,
+        "betPct": 25,
+        "moneyPct": 25
+      }
     },
     {
       "gameId": "401908042",
@@ -23,7 +29,13 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -161,
       "betPct": 57,
-      "moneyPct": 58
+      "moneyPct": 58,
+      "spreadMarket": {
+        "spread": -1.5,
+        "odds": 152,
+        "betPct": 75,
+        "moneyPct": 75
+      }
     }
   ]
 }
