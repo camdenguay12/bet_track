@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:18.495453+00:00",
-  "status": "DraftKings public moneyline odds refreshed for upcoming NFL Week 7 games",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_page=1",
-  "note": "Odds from DraftKings Network public betting splits; Action Network Bet % not verified and left blank. Money % blank.",
+  "status": "Action Network spread Bet % and DraftKings moneyline odds for NFL Week 7",
+  "sourceUrl": "https://www.actionnetwork.com/nfl/public-betting/",
+  "note": "Bet % is Action Network spread ticket share; odds are DraftKings moneyline. Money % unavailable.",
   "teams": [
     {
       "gameId": "401873008",
@@ -32,9 +32,10 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 130,
-      "betPct": null,
+      "betPct": 74,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873010",
@@ -43,9 +44,10 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -155,
-      "betPct": null,
+      "betPct": 26,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873011",
@@ -54,9 +56,10 @@
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -185,
-      "betPct": null,
+      "betPct": 43,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873011",
@@ -65,9 +68,10 @@
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 154,
-      "betPct": null,
+      "betPct": 57,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873017",
@@ -76,9 +80,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -175,
-      "betPct": null,
+      "betPct": 71,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873017",
@@ -87,9 +92,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 145,
-      "betPct": null,
+      "betPct": 29,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873013",
@@ -98,8 +104,9 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -125,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 72,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873013",
@@ -108,8 +115,9 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 105,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 28,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873014",
@@ -118,9 +126,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 235,
-      "betPct": null,
+      "betPct": 50,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873014",
@@ -129,9 +138,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -290,
-      "betPct": null,
+      "betPct": 50,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873015",
@@ -140,9 +150,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 190,
-      "betPct": null,
+      "betPct": 44,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873015",
@@ -151,9 +162,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -230,
-      "betPct": null,
+      "betPct": 56,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873018",
@@ -162,9 +174,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 145,
-      "betPct": null,
+      "betPct": 33,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873018",
@@ -173,9 +186,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -175,
-      "betPct": null,
+      "betPct": 67,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873012",
@@ -184,9 +198,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": null,
+      "betPct": 73,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873012",
@@ -195,9 +210,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": null,
+      "betPct": 27,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873016",
@@ -206,9 +222,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 400,
-      "betPct": null,
+      "betPct": 62,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873016",
@@ -217,9 +234,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -535,
-      "betPct": null,
+      "betPct": 38,
       "moneyPct": null,
-      "sourceMarket": "DraftKings Moneyline"
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873019",
@@ -228,8 +246,9 @@
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -230,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 63,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873019",
@@ -238,8 +257,9 @@
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 190,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 37,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873020",
@@ -248,8 +268,9 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 136,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 66,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873020",
@@ -258,8 +279,9 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -162,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 34,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873021",
@@ -268,8 +290,9 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -218,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 39,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873021",
@@ -278,8 +301,9 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 180,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 61,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873022",
@@ -288,8 +312,9 @@
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 88,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873022",
@@ -298,8 +323,9 @@
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 12,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873009",
@@ -308,8 +334,9 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -225,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 67,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     },
     {
       "gameId": "401873009",
@@ -318,8 +345,9 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 185,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 33,
+      "moneyPct": null,
+      "betSource": "Action Network NFL public betting, spread market"
     }
   ]
 }
