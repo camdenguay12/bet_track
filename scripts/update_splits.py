@@ -85,6 +85,63 @@ def parse(text, target_date=None):
     return output
 
 
+
+def fetch_schedule(session, league, today):
+    """ESPN public scoreboard schedule; no betting percentages inferred."""
+    from datetime import timedelta
+    dates = [today, today + timedelta(days=1)] if league != "NFL" else [
+        today + timedelta(days=offset) for offset in range(-today.weekday(), 7-today.weekday())
+    ]
+    games = {}
+    sport = {"NBA": "basketball/nba", "NFL": "football/nfl", "MLB": "baseball/mlb"}[league]
+    for date in dates:
+        url = f"https://site.api.espn.com/apis/site/v2/sports/{sport}/scoreboard"
+        response = session.get(url, params={"dates": date.strftime("%Y%m%d"), "limit": 1000}, timeout=30)
+        response.raise_for_status()
+        for event in response.json().get("events", []):
+            competitions = event.get("competitions", [])
+            if not competitions:
+                continue
+            sides = competitions[0].get("competitors", [])
+            if len(sides) != 2:
+                continue
+            away = next((x for x in sides if x.get("homeAway") == "away"), None)
+            home = next((x for x in sides if x.get("homeAway") == "home"), None)
+            if not away or not home:
+                continue
+            start = event.get("date")
+            if not start:
+                continue
+            et_date = datetime.fromisoformat(start.replace("Z", "+00:00")).astimezone(ZoneInfo("America/New_York")).date()
+            if et_date not in dates:
+                continue
+            away_name = away.get("team", {}).get("displayName", "")
+            home_name = home.get("team", {}).get("displayName", "")
+            if not away_name or not home_name:
+                continue
+            key = str(event.get("id"))
+            games[key] = {"gameId": key, "startTime": start, "away": away_name, "home": home_name,
+                          "status": event.get("status", {}).get("type", {}).get("name", "STATUS_SCHEDULED")}
+    return games
+
+
+def attach_splits(schedule, parsed):
+    """Match only exact team names; unmatched games retain null betting data."""
+    aliases = lambda x: re.sub(r"[^a-z0-9]", "", x.lower())
+    indexed = {}
+    for row in parsed:
+        indexed[(aliases(row["team"]), aliases(row["opponent"]))] = row
+    output = []
+    for game in schedule.values():
+        for team, opponent in ((game["away"], game["home"]), (game["home"], game["away"])):
+            split = indexed.get((aliases(team), aliases(opponent)))
+            output.append({"gameId": game["gameId"], "team": team, "opponent": opponent,
+                           "startTime": game["startTime"], "gameStatus": game["status"],
+                           "odds": split["odds"] if split else None,
+                           "betPct": split["betPct"] if split else None,
+                           "moneyPct": split["moneyPct"] if split else None})
+    return output
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--league", choices=LEAGUES, required=True)
@@ -138,25 +195,18 @@ def main():
         raise RuntimeError("20 distinct pages encountered; refusing possibly incomplete snapshot")
     teams = [row for game in teams_by_game.values() if len(game) == 2
              for row in game.values()]
-    if not teams:
-        raise RuntimeError(f"No complete {league} moneyline games parsed; preserving prior snapshot")
-    if league == "NBA":
-        if len(teams_by_game) < 2:
-            raise RuntimeError(
-                f"Only {len(teams_by_game)} NBA game(s) retrieved; "
-                "refusing to replace daily snapshot with a partial slate"
-            )
-        # Cross-check count against the source's own matchup headings for today.
-        # Never silently publish a truncated partial slate.
-        if not expected_games or len(teams) % 2 or set(teams_by_game) != expected_games:
-            raise RuntimeError(f"Incomplete NBA slate: {len(teams_by_game)} parsed of {len(expected_games)} listed games")
+    schedule = fetch_schedule(session, league, today)
+    if not schedule:
+        raise RuntimeError(f"No {league} scheduled games returned; preserving previous data")
+    teams = attach_splits(schedule, teams)
+    print(f"{league}: {len(schedule)} scheduled matchups, {sum(x['betPct'] is not None for x in teams)} teams with verified splits")
     now = datetime.now(timezone.utc)
     payload = {
         "snapshotDate": today.isoformat(),
         "retrievedAt": now.isoformat(),
-        "status": "Verified public DraftKings snapshot",
+        "status": "Schedule verified; betting splits shown only when matched",
         "sourceUrl": urls[0],
-        "note": "DraftKings all-jurisdiction public splits; odds and percentages may change. Snapshot only.",
+        "note": "Schedule from ESPN; betting percentages and odds from DraftKings where available. Missing splits are not estimated.",
         "teams": teams,
     }
     path = Path("data") / f"{league.lower()}.json"
