@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:18.495453+00:00",
-  "status": "Verified public DraftKings NFL moneyline snapshot for 8 upcoming matchups",
+  "status": "Odds retained; awaiting verified Action Network ticket percentages",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_page=1",
-  "note": "Public DraftKings moneyline snapshot; only unstarted games updated. Other matchups remain unavailable, not estimated.",
+  "note": "DraftKings moneyline odds from prior public snapshot. Action Network market-matched ticket percentages not verified; Bet % and Money % intentionally blank.",
   "teams": [
     {
       "gameId": "401873008",
@@ -32,8 +32,8 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 130,
-      "betPct": 84,
-      "moneyPct": 88,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -43,8 +43,8 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -155,
-      "betPct": 16,
-      "moneyPct": 12,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -54,8 +54,8 @@
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -185,
-      "betPct": 61,
-      "moneyPct": 40,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -65,8 +65,8 @@
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 154,
-      "betPct": 39,
-      "moneyPct": 60,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -76,8 +76,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -180,
-      "betPct": 84,
-      "moneyPct": 87,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -87,8 +87,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 150,
-      "betPct": 16,
-      "moneyPct": 13,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -118,8 +118,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 235,
-      "betPct": 7,
-      "moneyPct": 15,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -129,8 +129,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -290,
-      "betPct": 93,
-      "moneyPct": 85,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -140,8 +140,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 185,
-      "betPct": 17,
-      "moneyPct": 9,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -151,8 +151,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -225,
-      "betPct": 83,
-      "moneyPct": 91,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -162,8 +162,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 145,
-      "betPct": 17,
-      "moneyPct": 28,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -173,8 +173,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -175,
-      "betPct": 83,
-      "moneyPct": 72,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -184,8 +184,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 120,
-      "betPct": 62,
-      "moneyPct": 66,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -195,8 +195,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -142,
-      "betPct": 38,
-      "moneyPct": 34,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -206,8 +206,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 410,
-      "betPct": 15,
-      "moneyPct": 58,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -217,8 +217,8 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -550,
-      "betPct": 85,
-      "moneyPct": 42,
+      "betPct": null,
+      "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
     },
     {
