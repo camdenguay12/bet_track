@@ -11,9 +11,9 @@
       "opponent": "Milwaukee Brewers",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": 133,
+      "betPct": 43,
+      "moneyPct": 42
     },
     {
       "gameId": "401908042",
@@ -21,9 +21,9 @@
       "opponent": "Tampa Bay Rays",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": -161,
+      "betPct": 57,
+      "moneyPct": 58
     }
   ]
 }
