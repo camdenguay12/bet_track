@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-22",
   "retrievedAt": "2026-10-22T06:24:18.495453+00:00",
-  "status": "Odds retained; awaiting verified Action Network ticket percentages",
+  "status": "DraftKings public moneyline odds refreshed for upcoming NFL Week 7 games",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_page=1",
-  "note": "DraftKings moneyline odds from prior public snapshot. Action Network market-matched ticket percentages not verified; Bet % and Money % intentionally blank.",
+  "note": "Odds from DraftKings Network public betting splits; Action Network Bet % not verified and left blank. Money % blank.",
   "teams": [
     {
       "gameId": "401873008",
@@ -75,7 +75,7 @@
       "opponent": "Atlanta Falcons",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -180,
+      "odds": -175,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -86,7 +86,7 @@
       "opponent": "San Francisco 49ers",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 150,
+      "odds": 145,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -97,7 +97,7 @@
       "opponent": "Tennessee Titans",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -125,
       "betPct": null,
       "moneyPct": null
     },
@@ -107,7 +107,7 @@
       "opponent": "Cleveland Browns",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 105,
       "betPct": null,
       "moneyPct": null
     },
@@ -139,7 +139,7 @@
       "opponent": "New York Jets",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 185,
+      "odds": 190,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -150,7 +150,7 @@
       "opponent": "Miami Dolphins",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -225,
+      "odds": -230,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -183,7 +183,7 @@
       "opponent": "Baltimore Ravens",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 120,
+      "odds": 124,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -194,7 +194,7 @@
       "opponent": "Cincinnati Bengals",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -142,
+      "odds": -148,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -205,7 +205,7 @@
       "opponent": "Houston Texans",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 410,
+      "odds": 400,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -216,7 +216,7 @@
       "opponent": "New York Giants",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -550,
+      "odds": -535,
       "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline"
@@ -227,7 +227,7 @@
       "opponent": "Arizona Cardinals",
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -230,
       "betPct": null,
       "moneyPct": null
     },
@@ -237,7 +237,7 @@
       "opponent": "Denver Broncos",
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 190,
       "betPct": null,
       "moneyPct": null
     },
@@ -247,7 +247,7 @@
       "opponent": "Detroit Lions",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 136,
       "betPct": null,
       "moneyPct": null
     },
@@ -257,7 +257,7 @@
       "opponent": "Green Bay Packers",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -162,
       "betPct": null,
       "moneyPct": null
     },
@@ -267,7 +267,7 @@
       "opponent": "Las Vegas Raiders",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -218,
       "betPct": null,
       "moneyPct": null
     },
@@ -277,7 +277,7 @@
       "opponent": "Los Angeles Rams",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 180,
       "betPct": null,
       "moneyPct": null
     },
@@ -287,7 +287,7 @@
       "opponent": "Seattle Seahawks",
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 124,
       "betPct": null,
       "moneyPct": null
     },
@@ -297,7 +297,7 @@
       "opponent": "Kansas City Chiefs",
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -148,
       "betPct": null,
       "moneyPct": null
     },
@@ -307,7 +307,7 @@
       "opponent": "Philadelphia Eagles",
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -225,
       "betPct": null,
       "moneyPct": null
     },
@@ -317,7 +317,7 @@
       "opponent": "Dallas Cowboys",
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": 185,
       "betPct": null,
       "moneyPct": null
     }
