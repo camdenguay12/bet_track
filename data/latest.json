@@ -281,9 +281,10 @@
       "opponent": "Golden State Warriors",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": 124,
+      "betPct": 26,
+      "moneyPct": 61,
+      "betSource": "DraftKings public moneyline betting splits"
     },
     {
       "gameId": "401909850",
@@ -291,9 +292,10 @@
       "opponent": "Memphis Grizzlies",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
-      "betPct": null,
-      "moneyPct": null
+      "odds": -148,
+      "betPct": 74,
+      "moneyPct": 39,
+      "betSource": "DraftKings public moneyline betting splits"
     },
     {
       "gameId": "401909851",
@@ -302,8 +304,9 @@
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 300,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 7,
+      "moneyPct": 41,
+      "betSource": "DraftKings public moneyline betting splits"
     },
     {
       "gameId": "401909851",
@@ -312,8 +315,9 @@
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -380,
-      "betPct": null,
-      "moneyPct": null
+      "betPct": 93,
+      "moneyPct": 59,
+      "betSource": "DraftKings public moneyline betting splits"
     },
     {
       "gameId": "401909852",
