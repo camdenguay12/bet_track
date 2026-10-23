@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-22",
-  "retrievedAt": "2026-10-22T06:24:16.882793+00:00",
-  "status": "October 23 DraftKings moneyline odds, Bet %, Handle %",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_page=1",
-  "note": "Moneyline market: DraftKings combined-jurisdiction ticket and handle shares. Scores calculated from moneyline percentages and moneyline decimal odds. Snapshot Oct 23, 2026.",
+  "snapshotDate": "2026-10-23",
+  "retrievedAt": "2026-10-23T17:00:07.904Z",
+  "status": "DraftKings 1 PM ET moneyline refresh · verified odds, Bets %, Handle %",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=Moneyline",
+  "note": "DraftKings Network combined-jurisdiction moneyline odds, ticket shares (Bet %) and handle shares (Money %). Previously captured fields are retained if absent in afternoon data. Source values are a point-in-time snapshot.",
   "teams": [
     {
       "gameId": "401909093",
@@ -83,10 +83,11 @@
       "opponent": "Milwaukee Bucks",
       "startTime": "2026-10-23T20:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -108,
-      "betPct": 34,
+      "odds": -102,
+      "betPct": 33,
       "moneyPct": 39,
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909848",
@@ -94,10 +95,11 @@
       "opponent": "Chicago Bulls",
       "startTime": "2026-10-23T20:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -112,
-      "betPct": 66,
+      "odds": -118,
+      "betPct": 67,
       "moneyPct": 61,
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909095",
@@ -105,10 +107,11 @@
       "opponent": "Boston Celtics",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 120,
-      "betPct": 45,
+      "odds": 110,
+      "betPct": 47,
       "moneyPct": 53,
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909095",
@@ -116,10 +119,11 @@
       "opponent": "New York Knicks",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -142,
-      "betPct": 55,
+      "odds": -130,
+      "betPct": 53,
       "moneyPct": 47,
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909843",
@@ -127,10 +131,11 @@
       "opponent": "Charlotte Hornets",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -142,
-      "betPct": 78,
-      "moneyPct": 89,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -148,
+      "betPct": 82,
+      "moneyPct": 95,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909843",
@@ -138,10 +143,11 @@
       "opponent": "Atlanta Hawks",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 120,
-      "betPct": 22,
-      "moneyPct": 11,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 124,
+      "betPct": 18,
+      "moneyPct": 5,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909844",
@@ -149,10 +155,11 @@
       "opponent": "Indiana Pacers",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 190,
-      "betPct": 12,
-      "moneyPct": 3,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 215,
+      "betPct": 10,
+      "moneyPct": 4,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909844",
@@ -160,10 +167,11 @@
       "opponent": "Dallas Mavericks",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -230,
-      "betPct": 88,
-      "moneyPct": 97,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -265,
+      "betPct": 90,
+      "moneyPct": 96,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909845",
@@ -171,10 +179,11 @@
       "opponent": "Orlando Magic",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -125,
-      "betPct": 87,
-      "moneyPct": 94,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -108,
+      "betPct": 88,
+      "moneyPct": 86,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909845",
@@ -182,10 +191,11 @@
       "opponent": "Minnesota Timberwolves",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 105,
-      "betPct": 13,
-      "moneyPct": 6,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -112,
+      "betPct": 12,
+      "moneyPct": 14,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909846",
@@ -193,10 +203,11 @@
       "opponent": "Washington Wizards",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -250,
-      "betPct": 81,
-      "moneyPct": 71,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -325,
+      "betPct": 83,
+      "moneyPct": 66,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909846",
@@ -204,10 +215,11 @@
       "opponent": "Toronto Raptors",
       "startTime": "2026-10-23T23:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 205,
-      "betPct": 19,
-      "moneyPct": 29,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 260,
+      "betPct": 17,
+      "moneyPct": 34,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909847",
@@ -215,10 +227,11 @@
       "opponent": "Miami Heat",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -110,
-      "betPct": 52,
-      "moneyPct": 41,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -125,
+      "betPct": 53,
+      "moneyPct": 38,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909847",
@@ -226,10 +239,11 @@
       "opponent": "Detroit Pistons",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -110,
-      "betPct": 48,
-      "moneyPct": 59,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 105,
+      "betPct": 47,
+      "moneyPct": 62,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909096",
@@ -237,10 +251,11 @@
       "opponent": "San Antonio Spurs",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 170,
-      "betPct": 12,
-      "moneyPct": 17,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 160,
+      "betPct": 13,
+      "moneyPct": 18,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909096",
@@ -248,10 +263,11 @@
       "opponent": "Houston Rockets",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -205,
-      "betPct": 88,
-      "moneyPct": 83,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -192,
+      "betPct": 87,
+      "moneyPct": 82,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909849",
@@ -259,10 +275,11 @@
       "opponent": "Utah Jazz",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 110,
-      "betPct": 55,
-      "moneyPct": 50,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -112,
+      "betPct": 48,
+      "moneyPct": 54,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909849",
@@ -270,10 +287,11 @@
       "opponent": "New Orleans Pelicans",
       "startTime": "2026-10-24T01:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -130,
-      "betPct": 45,
-      "moneyPct": 50,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -108,
+      "betPct": 52,
+      "moneyPct": 46,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909850",
@@ -281,10 +299,11 @@
       "opponent": "Golden State Warriors",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 124,
-      "betPct": 26,
-      "moneyPct": 61,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 150,
+      "betPct": 21,
+      "moneyPct": 42,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909850",
@@ -292,10 +311,11 @@
       "opponent": "Memphis Grizzlies",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -148,
-      "betPct": 74,
-      "moneyPct": 39,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -180,
+      "betPct": 79,
+      "moneyPct": 58,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909851",
@@ -303,10 +323,11 @@
       "opponent": "Los Angeles Lakers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 300,
-      "betPct": 7,
-      "moneyPct": 41,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 295,
+      "betPct": 8,
+      "moneyPct": 33,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909851",
@@ -314,10 +335,11 @@
       "opponent": "LA Clippers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -380,
-      "betPct": 93,
-      "moneyPct": 59,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -375,
+      "betPct": 92,
+      "moneyPct": 67,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909852",
@@ -325,10 +347,11 @@
       "opponent": "Sacramento Kings",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -325,
-      "betPct": 97,
-      "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": -470,
+      "betPct": 96,
+      "moneyPct": 97,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401909852",
@@ -336,10 +359,11 @@
       "opponent": "Portland Trail Blazers",
       "startTime": "2026-10-24T02:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 260,
-      "betPct": 3,
-      "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits"
+      "odds": 360,
+      "betPct": 4,
+      "moneyPct": 3,
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     }
   ]
 }
