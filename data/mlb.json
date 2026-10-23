@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-22",
-  "retrievedAt": "2026-10-22T06:24:19.671897+00:00",
-  "status": "October 23 DraftKings moneyline odds, Bet %, Handle %",
+  "snapshotDate": "2026-10-23",
+  "retrievedAt": "2026-10-23T17:00:14.336Z",
+  "status": "DraftKings 1 PM ET moneyline refresh · verified odds, Bets %, Handle %",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline",
-  "note": "Moneyline market, combined jurisdictions, Oct 23 snapshot.",
+  "note": "DraftKings Network combined-jurisdiction moneyline odds, ticket shares (Bet %) and handle shares (Money %). Previously captured fields are retained if absent in afternoon data. Source values are a point-in-time snapshot.",
   "teams": [
     {
       "gameId": "401908042",
@@ -11,16 +11,17 @@
       "opponent": "Milwaukee Brewers",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 133,
-      "betPct": 36,
-      "moneyPct": 87,
+      "odds": 154,
+      "betPct": 28,
+      "moneyPct": 70,
       "spreadMarket": {
         "spread": 1.5,
         "odds": -181,
         "betPct": null,
         "moneyPct": null
       },
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     },
     {
       "gameId": "401908042",
@@ -28,16 +29,17 @@
       "opponent": "Tampa Bay Rays",
       "startTime": "2026-10-24T00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -161,
-      "betPct": 64,
-      "moneyPct": 13,
+      "odds": -187,
+      "betPct": 72,
+      "moneyPct": 30,
       "spreadMarket": {
         "spread": -1.5,
         "odds": 149,
         "betPct": null,
         "moneyPct": null
       },
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
     }
   ]
 }
