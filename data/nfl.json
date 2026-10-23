@@ -3,7 +3,7 @@
   "retrievedAt": "2026-10-22T06:24:18.495453+00:00",
   "status": "DraftKings Week 7 moneyline odds, Bet %, Handle % (verified matchups)",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline",
-  "note": "Verified upcoming moneyline markets use DraftKings combined-jurisdiction data. Remaining games retain previous Action Network spread Bet % and have blank Money % until verified.",
+  "note": "DraftKings moneyline Bet % and Handle % shown only for verified matchups. Unverified upcoming matchups remain blank rather than mixing spread and moneyline ticket shares.",
   "teams": [
     {
       "gameId": "401873008",
@@ -32,7 +32,7 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 130,
-      "betPct": 74,
+      "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "Action Network NFL public betting, spread market"
@@ -44,7 +44,7 @@
       "startTime": "2026-10-23T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -155,
-      "betPct": 26,
+      "betPct": null,
       "moneyPct": null,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "Action Network NFL public betting, spread market"
@@ -268,7 +268,7 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 136,
-      "betPct": 66,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -279,7 +279,7 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -162,
-      "betPct": 34,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -290,7 +290,7 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -218,
-      "betPct": 39,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -301,7 +301,7 @@
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 180,
-      "betPct": 61,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -312,7 +312,7 @@
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": 88,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -323,7 +323,7 @@
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": 12,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -334,7 +334,7 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -225,
-      "betPct": 67,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     },
@@ -345,7 +345,7 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 185,
-      "betPct": 33,
+      "betPct": null,
       "moneyPct": null,
       "betSource": "Action Network NFL public betting, spread market"
     }
