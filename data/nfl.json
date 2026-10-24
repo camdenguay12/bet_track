@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-24",
   "retrievedAt": "2026-10-24T17:02:52.606Z",
-  "status": "DraftKings 1 PM ET moneyline refresh · 28 verified sides · 12 sides changed",
+  "status": "DraftKings 1 PM ET moneyline refresh · 14 verified upcoming games · 5 games changed",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
-  "note": "October 24, 2026 afternoon check: updated only verified DraftKings moneyline odds, ticket percentages (Bet %) and handle percentages (Money %). Missing or no-longer-listed markets retain 10 AM values. Started-game snapshots preserved. All-jurisdiction DraftKings Network figures.",
+  "note": "October 24, 2026 afternoon check: updated only verified DraftKings moneyline odds, ticket percentages (Bet %) and handle percentages (Money %); 5 Oct 25 matchups had percentage changes. Oct 29 Panthers-Packers retained its verified 10 AM values, unchanged. Started games and missing markets preserved. All-jurisdiction DraftKings Network figures.",
   "teams": [
     {
       "gameId": "401873008",
