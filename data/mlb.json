@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-23",
-  "retrievedAt": "2026-10-23T17:00:14.336Z",
-  "status": "DraftKings 1 PM ET moneyline refresh · verified odds, Bets %, Handle %",
+  "snapshotDate": "2026-10-24",
+  "retrievedAt": "2026-10-24T14:07:45.649Z",
+  "status": "DraftKings 10 AM ET moneyline snapshot · World Series Game 2",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline",
-  "note": "DraftKings Network combined-jurisdiction moneyline odds, ticket shares (Bet %) and handle shares (Money %). Previously captured fields are retained if absent in afternoon data. Source values are a point-in-time snapshot.",
+  "note": "October 24, 8 PM ET: Rays at Brewers World Series Game 2, DraftKings moneyline odds, Bet % and Money %. Game 1 snapshot preserved.",
   "teams": [
     {
       "gameId": "401908042",
@@ -39,6 +39,30 @@
         "moneyPct": null
       },
       "betSource": "DraftKings public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-mlb-20261024-tb-mil",
+      "team": "Tampa Bay Rays",
+      "opponent": "Milwaukee Brewers",
+      "startTime": "2026-10-25T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 100,
+      "betPct": 49,
+      "moneyPct": 58,
+      "betSource": "DraftKings Network moneyline",
+      "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-mlb-20261024-tb-mil",
+      "team": "Milwaukee Brewers",
+      "opponent": "Tampa Bay Rays",
+      "startTime": "2026-10-25T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -120,
+      "betPct": 51,
+      "moneyPct": 42,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     }
   ]
