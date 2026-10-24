@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-23",
-  "retrievedAt": "2026-10-23T17:00:11.169Z",
-  "status": "DraftKings 1 PM ET moneyline refresh · verified odds, Bets %, Handle %",
+  "snapshotDate": "2026-10-24",
+  "retrievedAt": "2026-10-24T14:07:45.649Z",
+  "status": "DraftKings 10 AM ET moneyline snapshot · 13 Week 7 games plus next Thursday",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
-  "note": "DraftKings Network combined-jurisdiction moneyline odds, ticket shares (Bet %) and handle shares (Money %). Previously captured fields are retained if absent in afternoon data. Source values are a point-in-time snapshot.",
+  "note": "Upcoming NFL moneyline odds, ticket share (Bet %) and handle share (Money %) from DraftKings Network. October 25–26 and October 29 matchups. Prior started games preserved.",
   "teams": [
     {
       "gameId": "401873008",
@@ -55,11 +55,11 @@
       "opponent": "New Orleans Saints",
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -175,
+      "odds": -162,
       "betPct": 65,
-      "moneyPct": 55,
+      "moneyPct": 34,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873011",
@@ -67,11 +67,11 @@
       "opponent": "Pittsburgh Steelers",
       "startTime": "2026-10-25T13:30Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 145,
+      "odds": 136,
       "betPct": 35,
-      "moneyPct": 45,
+      "moneyPct": 66,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873017",
@@ -80,10 +80,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": 85,
-      "moneyPct": 86,
+      "betPct": 84,
+      "moneyPct": 85,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873017",
@@ -92,10 +92,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": 15,
-      "moneyPct": 14,
+      "betPct": 16,
+      "moneyPct": 15,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873013",
@@ -105,8 +105,8 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -130,
       "betPct": 81,
-      "moneyPct": 77,
-      "betSource": "DraftKings public moneyline betting splits",
+      "moneyPct": 74,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -117,8 +117,8 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 110,
       "betPct": 19,
-      "moneyPct": 23,
-      "betSource": "DraftKings public moneyline betting splits",
+      "moneyPct": 26,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -127,11 +127,11 @@
       "opponent": "Minnesota Vikings",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 225,
-      "betPct": 8,
-      "moneyPct": 16,
+      "odds": 235,
+      "betPct": 9,
+      "moneyPct": 19,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873014",
@@ -139,11 +139,11 @@
       "opponent": "Indianapolis Colts",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -278,
-      "betPct": 92,
-      "moneyPct": 84,
+      "odds": -290,
+      "betPct": 91,
+      "moneyPct": 81,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873015",
@@ -152,10 +152,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 185,
-      "betPct": 16,
-      "moneyPct": 11,
+      "betPct": 15,
+      "moneyPct": 13,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873015",
@@ -164,10 +164,10 @@
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -225,
-      "betPct": 84,
-      "moneyPct": 89,
+      "betPct": 85,
+      "moneyPct": 87,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873018",
@@ -175,11 +175,11 @@
       "opponent": "Carolina Panthers",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 136,
-      "betPct": 16,
-      "moneyPct": 10,
+      "odds": 130,
+      "betPct": 17,
+      "moneyPct": 12,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873018",
@@ -187,11 +187,11 @@
       "opponent": "Tampa Bay Buccaneers",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -162,
-      "betPct": 84,
-      "moneyPct": 90,
+      "odds": -155,
+      "betPct": 83,
+      "moneyPct": 88,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873012",
@@ -199,11 +199,11 @@
       "opponent": "Baltimore Ravens",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -102,
-      "betPct": 63,
-      "moneyPct": 79,
+      "odds": -115,
+      "betPct": 62,
+      "moneyPct": 73,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873012",
@@ -211,11 +211,11 @@
       "opponent": "Cincinnati Bengals",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -118,
-      "betPct": 37,
-      "moneyPct": 21,
+      "odds": -105,
+      "betPct": 38,
+      "moneyPct": 27,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873016",
@@ -223,11 +223,11 @@
       "opponent": "Houston Texans",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 390,
+      "odds": 380,
       "betPct": 16,
-      "moneyPct": 73,
+      "moneyPct": 63,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873016",
@@ -235,11 +235,11 @@
       "opponent": "New York Giants",
       "startTime": "2026-10-25T17:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -520,
+      "odds": -500,
       "betPct": 84,
-      "moneyPct": 27,
+      "moneyPct": 37,
       "sourceMarket": "DraftKings Moneyline",
-      "betSource": "DraftKings public moneyline betting splits"
+      "betSource": "DraftKings Network moneyline"
     },
     {
       "gameId": "401873019",
@@ -248,9 +248,9 @@
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -230,
-      "betPct": 85,
-      "moneyPct": 66,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 84,
+      "moneyPct": 67,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -260,9 +260,9 @@
       "startTime": "2026-10-25T20:05Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 190,
-      "betPct": 15,
-      "moneyPct": 34,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 16,
+      "moneyPct": 33,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -271,10 +271,10 @@
       "opponent": "Detroit Lions",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 142,
-      "betPct": 34,
-      "moneyPct": 79,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": 150,
+      "betPct": 35,
+      "moneyPct": 76,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -283,10 +283,10 @@
       "opponent": "Green Bay Packers",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -170,
-      "betPct": 66,
-      "moneyPct": 21,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": -180,
+      "betPct": 65,
+      "moneyPct": 24,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -295,10 +295,10 @@
       "opponent": "Las Vegas Raiders",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -192,
-      "betPct": 77,
-      "moneyPct": 68,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": -175,
+      "betPct": 75,
+      "moneyPct": 67,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -307,10 +307,10 @@
       "opponent": "Los Angeles Rams",
       "startTime": "2026-10-25T20:25Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 160,
-      "betPct": 23,
-      "moneyPct": 32,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": 145,
+      "betPct": 25,
+      "moneyPct": 33,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -319,10 +319,10 @@
       "opponent": "Seattle Seahawks",
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 120,
+      "odds": 124,
       "betPct": 71,
-      "moneyPct": 73,
-      "betSource": "DraftKings public moneyline betting splits",
+      "moneyPct": 75,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -331,10 +331,10 @@
       "opponent": "Kansas City Chiefs",
       "startTime": "2026-10-26T00:20Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -142,
+      "odds": -148,
       "betPct": 29,
-      "moneyPct": 27,
-      "betSource": "DraftKings public moneyline betting splits",
+      "moneyPct": 25,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -344,9 +344,9 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -218,
-      "betPct": 89,
-      "moneyPct": 84,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 88,
+      "moneyPct": 82,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -356,9 +356,33 @@
       "startTime": "2026-10-27T00:15Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 180,
-      "betPct": 11,
-      "moneyPct": 16,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 12,
+      "moneyPct": 18,
+      "betSource": "DraftKings Network moneyline",
+      "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-nfl-20261029-car-gb",
+      "team": "Carolina Panthers",
+      "opponent": "Green Bay Packers",
+      "startTime": "2026-10-30T00:15:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 130,
+      "betPct": 30,
+      "moneyPct": 0,
+      "betSource": "DraftKings Network moneyline",
+      "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-nfl-20261029-car-gb",
+      "team": "Green Bay Packers",
+      "opponent": "Carolina Panthers",
+      "startTime": "2026-10-30T00:15:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -155,
+      "betPct": 70,
+      "moneyPct": 100,
+      "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     }
   ]
