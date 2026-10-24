@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-24",
-  "retrievedAt": "2026-10-24T14:07:45.649Z",
-  "status": "DraftKings 10 AM ET moneyline snapshot · World Series Game 2",
+  "retrievedAt": "2026-10-24T17:02:52.606Z",
+  "status": "DraftKings 1 PM ET moneyline refresh · 2 verified sides · 2 sides changed",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline",
-  "note": "October 24, 8 PM ET: Rays at Brewers World Series Game 2, DraftKings moneyline odds, Bet % and Money %. Game 1 snapshot preserved.",
+  "note": "October 24, 2026 afternoon check: updated only verified DraftKings moneyline odds, ticket percentages (Bet %) and handle percentages (Money %). Missing or no-longer-listed markets retain 10 AM values. Started-game snapshots preserved. All-jurisdiction DraftKings Network figures.",
   "teams": [
     {
       "gameId": "401908042",
@@ -48,8 +48,8 @@
       "startTime": "2026-10-25T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 100,
-      "betPct": 49,
-      "moneyPct": 58,
+      "betPct": 56,
+      "moneyPct": 78,
       "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
@@ -60,8 +60,8 @@
       "startTime": "2026-10-25T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -120,
-      "betPct": 51,
-      "moneyPct": 42,
+      "betPct": 44,
+      "moneyPct": 22,
       "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     }
