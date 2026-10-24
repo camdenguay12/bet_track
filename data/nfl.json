@@ -367,9 +367,9 @@
       "opponent": "Green Bay Packers",
       "startTime": "2026-10-30T00:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -155,
-      "betPct": 83,
-      "moneyPct": 88,
+      "odds": 130,
+      "betPct": 30,
+      "moneyPct": 0,
       "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     },
@@ -379,9 +379,9 @@
       "opponent": "Carolina Panthers",
       "startTime": "2026-10-30T00:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 150,
-      "betPct": 35,
-      "moneyPct": 77,
+      "odds": -155,
+      "betPct": 70,
+      "moneyPct": 100,
       "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
     }
