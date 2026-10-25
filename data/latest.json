@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-25",
   "retrievedAt": "2026-10-25T13:00:00Z",
-  "status": "DraftKings October 25 NBA moneyline snapshot",
+  "status": "NBA Oct 25 values checked against public DraftKings betting splits",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
-  "note": "October 25 NBA DraftKings Network moneyline snapshot rechecked against published betting splits. Exact 0%/100% can occur in DK published figures, particularly thin early markets; values are rounded and may change.",
+  "note": "Directly transcribed from public DraftKings Network moneyline table; 0%, 98%, 99%, 100% are values actually published there, not estimates. Extreme splits may be early or low-volume; no bet counts provided. This is not probability of winning.",
   "teams": [
     {
       "gameId": "401909093",
@@ -566,8 +566,10 @@
       "odds": -238,
       "betPct": 94,
       "moneyPct": 98,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-1",
@@ -578,8 +580,10 @@
       "odds": 195,
       "betPct": 6,
       "moneyPct": 2,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-2",
@@ -590,8 +594,10 @@
       "odds": -265,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-2",
@@ -602,8 +608,10 @@
       "odds": 215,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-3",
@@ -614,8 +622,10 @@
       "odds": 250,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-3",
@@ -626,8 +636,10 @@
       "odds": -310,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-4",
@@ -638,8 +650,10 @@
       "odds": 625,
       "betPct": 3,
       "moneyPct": 1,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-4",
@@ -650,8 +664,10 @@
       "odds": -950,
       "betPct": 97,
       "moneyPct": 99,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-5",
@@ -662,8 +678,10 @@
       "odds": -105,
       "betPct": 19,
       "moneyPct": 4,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": false
     },
     {
       "gameId": "dk-20261025-5",
@@ -674,8 +692,10 @@
       "odds": -115,
       "betPct": 81,
       "moneyPct": 96,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": false
     },
     {
       "gameId": "dk-20261025-6",
@@ -686,8 +706,10 @@
       "odds": 120,
       "betPct": 23,
       "moneyPct": 31,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": false
     },
     {
       "gameId": "dk-20261025-6",
@@ -698,8 +720,10 @@
       "odds": -142,
       "betPct": 77,
       "moneyPct": 69,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": false
     },
     {
       "gameId": "dk-20261025-7",
@@ -710,8 +734,10 @@
       "odds": -175,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     },
     {
       "gameId": "dk-20261025-7",
@@ -722,8 +748,10 @@
       "odds": 145,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings Network moneyline verified",
-      "sourceMarket": "DraftKings Moneyline"
+      "betSource": "DraftKings Network published moneyline splits",
+      "sourceMarket": "Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
+      "extremeSplit": true
     }
   ]
 }
