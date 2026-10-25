@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-24",
-  "retrievedAt": "2026-10-24T17:02:52.606Z",
-  "status": "DraftKings 1 PM ET moneyline refresh · 2 verified sides · 2 sides changed",
+  "snapshotDate": "2026-10-25",
+  "retrievedAt": "2026-10-25T17:00:20Z",
+  "status": "DraftKings 1 PM ET moneyline refresh · World Series Game 3 · 2 new sides",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline",
-  "note": "October 24, 2026 afternoon check: updated only verified DraftKings moneyline odds, ticket percentages (Bet %) and handle percentages (Money %). Missing or no-longer-listed markets retain 10 AM values. Started-game snapshots preserved. All-jurisdiction DraftKings Network figures.",
+  "note": "October 25 2026 ~1 PM ET: added verified public DraftKings moneyline odds, Bets % and Handle % for Oct 26 World Series Game 3 (Brewers at Rays). Previously started games 1 and 2 remain unchanged; no spread/total data used.",
   "teams": [
     {
       "gameId": "401908042",
@@ -64,6 +64,32 @@
       "moneyPct": 22,
       "betSource": "DraftKings Network moneyline",
       "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-mlb-20261026-mil-tb",
+      "team": "Tampa Bay Rays",
+      "opponent": "Milwaukee Brewers",
+      "startTime": "2026-10-27T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -118,
+      "betPct": 57,
+      "moneyPct": 75,
+      "betSource": "DraftKings Network public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline"
+    },
+    {
+      "gameId": "dk-mlb-20261026-mil-tb",
+      "team": "Milwaukee Brewers",
+      "opponent": "Tampa Bay Rays",
+      "startTime": "2026-10-27T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -102,
+      "betPct": 43,
+      "moneyPct": 25,
+      "betSource": "DraftKings Network public moneyline betting splits",
+      "sourceMarket": "DraftKings Moneyline",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=MLB&tb_edate=n30days&tb_eg=MLB&tb_emt=Moneyline"
     }
   ]
 }
