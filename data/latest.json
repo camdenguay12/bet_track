@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-25",
-  "retrievedAt": "2026-10-25T12:55:00Z",
+  "retrievedAt": "2026-10-25T13:00:00Z",
   "status": "DraftKings October 25 NBA moneyline snapshot",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_page=2",
-  "note": "DraftKings combined-jurisdiction moneyline odds, bets and handle; morning snapshot. Today's seven games appended without altering previous games.",
+  "note": "October 25 NBA DraftKings Network moneyline snapshot rechecked against published betting splits. Exact 0%/100% can occur in DK published figures, particularly thin early markets; values are rounded and may change.",
   "teams": [
     {
       "gameId": "401909093",
@@ -564,9 +564,9 @@
       "startTime": "2026-10-25T21:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -238,
-      "betPct": 95,
-      "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 94,
+      "moneyPct": 98,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -576,9 +576,9 @@
       "startTime": "2026-10-25T21:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 195,
-      "betPct": 5,
-      "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 6,
+      "moneyPct": 2,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -587,10 +587,10 @@
       "opponent": "Brooklyn Nets",
       "startTime": "2026-10-25T22:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -278,
+      "odds": -265,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -599,10 +599,10 @@
       "opponent": "Indiana Pacers",
       "startTime": "2026-10-25T22:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 225,
+      "odds": 215,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -614,7 +614,7 @@
       "odds": 250,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -626,7 +626,7 @@
       "odds": -310,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -636,9 +636,9 @@
       "startTime": "2026-10-25T23:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 625,
-      "betPct": 0,
-      "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 3,
+      "moneyPct": 1,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -648,9 +648,9 @@
       "startTime": "2026-10-25T23:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -950,
-      "betPct": 100,
-      "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betPct": 97,
+      "moneyPct": 99,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -660,9 +660,9 @@
       "startTime": "2026-10-25T23:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -105,
-      "betPct": 20,
+      "betPct": 19,
       "moneyPct": 4,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -672,9 +672,9 @@
       "startTime": "2026-10-25T23:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -115,
-      "betPct": 80,
+      "betPct": 81,
       "moneyPct": 96,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -683,10 +683,10 @@
       "opponent": "Philadelphia 76ers",
       "startTime": "2026-10-25T23:40:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 114,
-      "betPct": 0,
-      "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": 120,
+      "betPct": 23,
+      "moneyPct": 31,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -695,10 +695,10 @@
       "opponent": "Detroit Pistons",
       "startTime": "2026-10-25T23:40:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -135,
-      "betPct": 100,
-      "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "odds": -142,
+      "betPct": 77,
+      "moneyPct": 69,
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -707,10 +707,10 @@
       "opponent": "Sacramento Kings",
       "startTime": "2026-10-26T01:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -170,
+      "odds": -175,
       "betPct": 100,
       "moneyPct": 100,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     },
     {
@@ -719,10 +719,10 @@
       "opponent": "Memphis Grizzlies",
       "startTime": "2026-10-26T01:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 142,
+      "odds": 145,
       "betPct": 0,
       "moneyPct": 0,
-      "betSource": "DraftKings public moneyline betting splits",
+      "betSource": "DraftKings Network moneyline verified",
       "sourceMarket": "DraftKings Moneyline"
     }
   ]
