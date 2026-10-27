@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-27",
-  "retrievedAt": "2026-10-27T12:59:07.040Z",
-  "status": "MLB Oct 27 upcoming schedule posted · DraftKings moneyline odds and betting splits unavailable",
+  "retrievedAt": "2026-10-27T17:01:19Z",
+  "status": "October 27 1 PM ET: World Series Game 4 Brewers -125 verified from DraftKings article; other moneyline values and splits unavailable",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=84240&tb_emt=Moneyline",
-  "note": "Oct 27 morning ET: 1 upcoming MLB game(s) added as schedule-only placeholders. DraftKings public moneyline table did not provide verifiable odds, ticket % and handle % for these games at this check. All those numeric fields are null (not estimated, not zero). Schedules are not betting data. Previous started-game snapshots preserved; the 1 PM check may fill in verified DK values.",
+  "note": "DraftKings public betting-splits page temporarily unavailable. Brewers Game 4 moneyline -125 independently verified from DraftKings Network's Oct 27 game preview and filled previously null odds only. Rays odds, both Bet % and Money % remain null; never infer opposite-side odds or shares. Started games preserved.",
   "teams": [
     {
       "gameId": "401908042",
@@ -99,13 +99,16 @@
       "opponent": "Tampa Bay Rays",
       "startTime": "2026-10-28T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": null,
+      "odds": -125,
       "betPct": null,
       "moneyPct": null,
       "betSource": null,
       "sourceMarket": "DraftKings Moneyline (not yet verified)",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=84240&tb_emt=Moneyline",
-      "scheduleSource": "https://dknetwork.draftkings.com/2026/10/26/opening-odds-for-rays-vs-brewers-game-4-in-2026-world-series/"
+      "scheduleSource": "https://dknetwork.draftkings.com/2026/10/26/opening-odds-for-rays-vs-brewers-game-4-in-2026-world-series/",
+      "oddsSource": "DraftKings Network Oct 27 Game 4 article, DraftKings Sportsbook moneyline",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/2026/10/27/milwaukee-brewers-vs-tampa-bay-rays-world-series-game-4-prediction-pick-for-tuesday-10-27-26/",
+      "oddsCheckedAt": "2026-10-27T17:01:19Z"
     },
     {
       "gameId": "dk-mlb-20261027-ws-game4",
