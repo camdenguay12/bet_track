@@ -1,10 +1,10 @@
 {
   "league": "UFC",
-  "snapshotDate": "2026-10-26",
-  "status": "DraftKings public moneyline check Oct 26 2026 · 10 verified upcoming fights",
+  "snapshotDate": "2026-10-27",
+  "status": "DraftKings public UFC moneyline recheck Oct 27 · 10 upcoming fights (last indexed source Oct 26)",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
   "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Morning Oct 26 2026 ET: verified DraftKings Network Moneyline odds, Bets % (ticket share) and Handle % (money share), all jurisdictions combined. No spread or total market percentages used. Historical/started snapshots preserved. Only 10 fights with public DraftKings moneyline splits were available; other fights are not fabricated. Extreme rounded 0%/100% values are reproduced only where DraftKings displayed them.",
+  "note": "Oct 27 ET check: publicly indexed DraftKings Network UFC moneyline table was last crawled Oct 26; corrected 4 fighter odds in 2 Oct 31 bouts against that source. Existing Bet % and Money % remain as previously verified DK published values; no new live splits claimed. Started/historical bouts preserved. Data may lag real-time sportsbook.",
   "teams": [
     {
       "gameId": "ufc333-1",
@@ -572,13 +572,16 @@
       "opponent": "Farman Hasanov",
       "startTime": "2026-10-31T23:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -285,
+      "odds": -265,
       "betPct": 64,
       "moneyPct": 35,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "extremeSplit": false
+      "extremeSplit": false,
+      "oddsSource": "DraftKings Network public moneyline",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
+      "oddsCheckedAt": "2026-10-27T12:58:46.293Z"
     },
     {
       "gameId": "dk-ufc-20261031-7",
@@ -586,13 +589,16 @@
       "opponent": "Jean-Paul Lebosnoyani",
       "startTime": "2026-10-31T23:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 230,
+      "odds": 215,
       "betPct": 36,
       "moneyPct": 65,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "extremeSplit": false
+      "extremeSplit": false,
+      "oddsSource": "DraftKings Network public moneyline",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
+      "oddsCheckedAt": "2026-10-27T12:58:46.293Z"
     },
     {
       "gameId": "dk-ufc-20261101-8",
@@ -600,13 +606,16 @@
       "opponent": "Cody Durden",
       "startTime": "2026-11-01T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -122,
+      "odds": -125,
       "betPct": 22,
       "moneyPct": 30,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "extremeSplit": false
+      "extremeSplit": false,
+      "oddsSource": "DraftKings Network public moneyline",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
+      "oddsCheckedAt": "2026-10-27T12:58:46.293Z"
     },
     {
       "gameId": "dk-ufc-20261101-8",
@@ -614,13 +623,16 @@
       "opponent": "Ode' Osbourne",
       "startTime": "2026-11-01T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 102,
+      "odds": 105,
       "betPct": 78,
       "moneyPct": 70,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "extremeSplit": false
+      "extremeSplit": false,
+      "oddsSource": "DraftKings Network public moneyline",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
+      "oddsCheckedAt": "2026-10-27T12:58:46.293Z"
     },
     {
       "gameId": "dk-ufc-20261101-9",
@@ -679,5 +691,5 @@
       "extremeSplit": false
     }
   ],
-  "retrievedAt": "2026-10-26T13:20:13.055Z"
+  "retrievedAt": "2026-10-27T12:58:46.293Z"
 }
