@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-28",
-  "retrievedAt": "2026-10-28T12:56:05Z",
-  "status": "World Series Game 5 added with verified DraftKings opening moneyline odds; splits unavailable",
-  "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/opening-odds-for-rays-vs-brewers-game-5-in-2026-world-series/",
-  "note": "Oct 28 morning ET: Game 5 MIL Brewers -146 / TB Rays +121 directly read from DraftKings Network published Game 5 odds image captured Oct 27 at 10:35 PM ET; these are opening odds, not guaranteed live. Bet % and Money % unavailable on DraftKings public splits page and intentionally null. Earlier games and started snapshots preserved.",
+  "retrievedAt": "2026-10-28T17:01:19Z",
+  "status": "Oct 28 afternoon: World Series Game 5 DraftKings moneyline odds updated; splits unavailable",
+  "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/brewers-at-rays-mlb-dfs-showdown-picks-and-strategy-for-world-series-game-5/",
+  "note": "Oct 28 1 PM ET: DraftKings Network Oct 28 World Series Game 5 article lists Milwaukee -157 and Tampa Bay +130; updated both from morning opening odds. DraftKings public betting-splits table temporarily unavailable; both Bet % and Money % remain null. Prior games untouched.",
   "teams": [
     {
       "gameId": "401908042",
@@ -130,14 +130,15 @@
       "opponent": "Tampa Bay Rays",
       "startTime": "2026-10-29T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -146,
+      "odds": -157,
       "betPct": null,
       "moneyPct": null,
-      "oddsSource": "DraftKings Network Game 5 opening odds image (Oct 27, 10:35 PM ET)",
+      "oddsSource": "DraftKings Network Oct 28 Brewers-Rays World Series Game 5 preview",
       "betSource": null,
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/opening-odds-for-rays-vs-brewers-game-5-in-2026-world-series/",
-      "scheduleSource": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
+      "scheduleSource": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/2026/10/28/brewers-at-rays-mlb-dfs-showdown-picks-and-strategy-for-world-series-game-5/"
     },
     {
       "gameId": "dk-mlb-ws-20261028-g5",
@@ -145,14 +146,15 @@
       "opponent": "Milwaukee Brewers",
       "startTime": "2026-10-29T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 121,
+      "odds": 130,
       "betPct": null,
       "moneyPct": null,
-      "oddsSource": "DraftKings Network Game 5 opening odds image (Oct 27, 10:35 PM ET)",
+      "oddsSource": "DraftKings Network Oct 28 Brewers-Rays World Series Game 5 preview",
       "betSource": null,
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/opening-odds-for-rays-vs-brewers-game-5-in-2026-world-series/",
-      "scheduleSource": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"
+      "scheduleSource": "https://www.mlb.com/news/2026-mlb-world-series-faq-schedule-times-teams-and-more",
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/2026/10/28/brewers-at-rays-mlb-dfs-showdown-picks-and-strategy-for-world-series-game-5/"
     }
   ]
 }
