@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-28",
-  "retrievedAt": "2026-10-28T17:01:19Z",
-  "status": "Oct 28 afternoon: 12 upcoming NBA games updated from DraftKings Network published Oct 28 moneyline odds and splits",
-  "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/nba-public-betting-trends-wednesday-october-28/",
-  "note": "Oct 28 1 PM ET: DraftKings main betting-splits table was temporarily unavailable; official DraftKings Network NBA public betting trends article published Oct 28 provides 12 games' moneyline odds, Bet % and Handle %. Updated only 24 Oct 28 team rows; earlier games untouched. Source may be an earlier same-day published snapshot rather than live 1 PM lines; no spread/total values used.",
+  "snapshotDate": "2026-10-29",
+  "retrievedAt": "2026-10-29T13:01:48Z",
+  "status": "Oct 29 morning: 3 NBA matchups posted; DraftKings moneyline odds and splits not yet verifiable",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+  "note": "October 29 09:01 ET: 3 scheduled NBA games added (6 team records), numeric fields null because DraftKings public betting-splits table reports temporarily unavailable and its current odds table has no NBA markets. Historical NBA snapshots untouched; no alternate sportsbook odds or spread splits used.",
   "teams": [
     {
       "gameId": "401909093",
@@ -1476,6 +1476,90 @@
       "sourceUrl": "https://dknetwork.draftkings.com/2026/10/28/nba-public-betting-trends-wednesday-october-28/",
       "scheduleSource": "NBA schedule Oct 28, 2026",
       "oddsSource": "DraftKings Network Oct 28 NBA Public Betting Trends moneyline"
+    },
+    {
+      "gameId": "dk-nba-20261029-cle-atl",
+      "team": "Cleveland Cavaliers",
+      "opponent": "Atlanta Hawks",
+      "startTime": "2026-10-30T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
+    },
+    {
+      "gameId": "dk-nba-20261029-cle-atl",
+      "team": "Atlanta Hawks",
+      "opponent": "Cleveland Cavaliers",
+      "startTime": "2026-10-30T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
+    },
+    {
+      "gameId": "dk-nba-20261029-sac-nop",
+      "team": "Sacramento Kings",
+      "opponent": "New Orleans Pelicans",
+      "startTime": "2026-10-30T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
+    },
+    {
+      "gameId": "dk-nba-20261029-sac-nop",
+      "team": "New Orleans Pelicans",
+      "opponent": "Sacramento Kings",
+      "startTime": "2026-10-30T00:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
+    },
+    {
+      "gameId": "dk-nba-20261029-mem-por",
+      "team": "Memphis Grizzlies",
+      "opponent": "Portland Trail Blazers",
+      "startTime": "2026-10-30T02:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
+    },
+    {
+      "gameId": "dk-nba-20261029-mem-por",
+      "team": "Portland Trail Blazers",
+      "opponent": "Memphis Grizzlies",
+      "startTime": "2026-10-30T02:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": null,
+      "betPct": null,
+      "moneyPct": null,
+      "betSource": null,
+      "sourceMarket": "DraftKings Moneyline (not yet verified)",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_emt=Moneyline",
+      "scheduleSource": "https://www.nba.com/schedule/2026"
     }
   ]
 }
