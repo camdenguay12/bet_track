@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-10-29",
-  "retrievedAt": "2026-10-29T13:01:48Z",
-  "status": "Oct 29 morning: 14 NFL moneyline odds updated from DraftKings Network; betting splits not freshly verifiable",
+  "retrievedAt": "2026-10-29T17:00:06Z",
+  "status": "Oct 29 afternoon: 6 NFL moneyline odds changed on DraftKings Network; splits unavailable and preserved",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
-  "note": "October 29 09:01 ET: 14 upcoming NFL moneyline odds refreshed directly from DraftKings Network odds table. Ticket/handle percentages remain older DraftKings snapshots with their original sourceCheckedAt because DraftKings betting-splits table is temporarily unavailable. No spread percentages used; started games preserved.",
+  "note": "Oct 29 1 PM ET: compared official DraftKings Network moneyline odds table against the 9:01 AM ET repository snapshot; updated only 6 changed moneyline odds for upcoming games. DraftKings betting-splits page reports temporarily unavailable, so all existing moneyline ticket/handle percentages are preserved unchanged with their prior sourceCheckedAt. No alternative sportsbooks, spread data, or started games changed.",
   "teams": [
     {
       "gameId": "401873008",
@@ -407,7 +407,7 @@
       "opponent": "Buffalo Bills",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 145,
+      "odds": 142,
       "betPct": 18,
       "moneyPct": 21,
       "betSource": "DraftKings public moneyline betting splits",
@@ -415,9 +415,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-20261101-3",
@@ -425,7 +425,7 @@
       "opponent": "Baltimore Ravens",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -175,
+      "odds": -170,
       "betPct": 82,
       "moneyPct": 79,
       "betSource": "DraftKings public moneyline betting splits",
@@ -433,9 +433,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-20261101-4",
@@ -443,7 +443,7 @@
       "opponent": "Cincinnati Bengals",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 380,
+      "odds": 455,
       "betPct": 23,
       "moneyPct": 26,
       "betSource": "DraftKings public moneyline betting splits",
@@ -451,9 +451,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-20261101-4",
@@ -461,7 +461,7 @@
       "opponent": "Tennessee Titans",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -500,
+      "odds": -625,
       "betPct": 77,
       "moneyPct": 74,
       "betSource": "DraftKings public moneyline betting splits",
@@ -469,9 +469,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-20261101-5",
@@ -659,7 +659,7 @@
       "opponent": "New York Jets",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 105,
+      "odds": 102,
       "betPct": 80,
       "moneyPct": 88,
       "betSource": "DraftKings public moneyline betting splits",
@@ -667,9 +667,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-20261101-10",
@@ -677,7 +677,7 @@
       "opponent": "Las Vegas Raiders",
       "startTime": "2026-11-01T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -125,
+      "odds": -122,
       "betPct": 20,
       "moneyPct": 12,
       "betSource": "DraftKings public moneyline betting splits",
@@ -685,9 +685,9 @@
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline",
       "extremeSplit": false,
       "sourceCheckedAt": "2026-10-27T12:58:37.795Z",
-      "oddsSource": "DraftKings Network official moneyline odds table (October 29 check)",
+      "oddsSource": "DraftKings Network official moneyline odds table",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/",
-      "oddsCheckedAt": "2026-10-29T13:01:48Z"
+      "oddsCheckedAt": "2026-10-29T17:00:06Z"
     },
     {
       "gameId": "dk-nfl-2026-11-01-chargers-rams",
