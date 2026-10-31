@@ -1,10 +1,10 @@
 {
   "league": "UFC",
   "snapshotDate": "2026-10-31",
-  "status": "Oct 31 morning: all 12 UFC Fight Night bouts verified from DraftKings live moneyline table",
+  "status": "Oct 31 afternoon: 56 verified DraftKings moneyline fields changed",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
   "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=2",
-  "note": "Oct 31 ET: verified moneyline odds, Bets % and Handle % and bout times from DraftKings Network UFC betting splits pages 1 and 2. Added Zach Reese vs Mickey Gall and Randy Brown vs Jacobe Smith; all started/historical fight records preserved.",
+  "note": "Oct 31 at approximately 1 PM ET: compared public DraftKings moneyline odds, % Bets and % Handle with morning repository snapshot. Only newly verified changed fields updated; started/historical records preserved. Source pages can be cached or change after retrieval; no other sportsbook or market used.",
   "teams": [
     {
       "gameId": "ufc333-1",
@@ -405,14 +405,14 @@
       "startTime": "2026-10-31T21:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -650,
-      "betPct": 73,
+      "betPct": 75,
       "moneyPct": 66,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-1",
@@ -421,14 +421,14 @@
       "startTime": "2026-10-31T21:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 470,
-      "betPct": 27,
+      "betPct": 25,
       "moneyPct": 34,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-2",
@@ -436,15 +436,15 @@
       "opponent": "Piera Rodriguez",
       "startTime": "2026-10-31T21:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 225,
+      "odds": 230,
       "betPct": 22,
-      "moneyPct": 27,
+      "moneyPct": 54,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-2",
@@ -452,15 +452,15 @@
       "opponent": "Talita Alencar",
       "startTime": "2026-10-31T21:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -278,
+      "odds": -285,
       "betPct": 78,
-      "moneyPct": 73,
+      "moneyPct": 46,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-3",
@@ -468,15 +468,15 @@
       "opponent": "Joseph Kropschot",
       "startTime": "2026-10-31T22:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 260,
-      "betPct": 19,
-      "moneyPct": 4,
+      "odds": 245,
+      "betPct": 18,
+      "moneyPct": 5,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-3",
@@ -484,15 +484,15 @@
       "opponent": "Nick Klein",
       "startTime": "2026-10-31T22:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -325,
-      "betPct": 81,
-      "moneyPct": 96,
+      "odds": -305,
+      "betPct": 82,
+      "moneyPct": 95,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-4",
@@ -501,14 +501,14 @@
       "startTime": "2026-10-31T23:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": 67,
-      "moneyPct": 68,
+      "betPct": 66,
+      "moneyPct": 59,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-4",
@@ -517,14 +517,14 @@
       "startTime": "2026-10-31T23:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": 33,
-      "moneyPct": 32,
+      "betPct": 34,
+      "moneyPct": 41,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-5",
@@ -532,15 +532,15 @@
       "opponent": "Theodor Berggren",
       "startTime": "2026-10-31T23:30:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -185,
-      "betPct": 54,
-      "moneyPct": 57,
+      "odds": -180,
+      "betPct": 59,
+      "moneyPct": 67,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-5",
@@ -548,15 +548,15 @@
       "opponent": "Rodrigo Sezinando",
       "startTime": "2026-10-31T23:30:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 154,
-      "betPct": 46,
-      "moneyPct": 43,
+      "odds": 150,
+      "betPct": 41,
+      "moneyPct": 33,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-6",
@@ -565,14 +565,14 @@
       "startTime": "2026-10-31T23:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -205,
-      "betPct": 70,
-      "moneyPct": 64,
+      "betPct": 71,
+      "moneyPct": 70,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-6",
@@ -581,14 +581,14 @@
       "startTime": "2026-10-31T23:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 170,
-      "betPct": 30,
-      "moneyPct": 36,
+      "betPct": 29,
+      "moneyPct": 30,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-7",
@@ -596,17 +596,17 @@
       "opponent": "Farman Hasanov",
       "startTime": "2026-11-01T00:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -285,
-      "betPct": 78,
-      "moneyPct": 90,
+      "odds": -298,
+      "betPct": 80,
+      "moneyPct": 84,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
       "oddsSource": "DraftKings Network public moneyline",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z"
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-7",
@@ -614,17 +614,17 @@
       "opponent": "Jean-Paul Lebosnoyani",
       "startTime": "2026-11-01T00:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 230,
-      "betPct": 22,
-      "moneyPct": 10,
+      "odds": 240,
+      "betPct": 20,
+      "moneyPct": 16,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
       "oddsSource": "DraftKings Network public moneyline",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z"
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-8",
@@ -632,17 +632,17 @@
       "opponent": "Cody Durden",
       "startTime": "2026-11-01T01:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 100,
-      "betPct": 37,
-      "moneyPct": 19,
+      "odds": -102,
+      "betPct": 40,
+      "moneyPct": 21,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
       "oddsSource": "DraftKings Network public moneyline",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z"
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-8",
@@ -650,17 +650,17 @@
       "opponent": "Ode' Osbourne",
       "startTime": "2026-11-01T01:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -120,
-      "betPct": 63,
-      "moneyPct": 81,
+      "odds": -118,
+      "betPct": 60,
+      "moneyPct": 79,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
       "oddsSource": "DraftKings Network public moneyline",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z"
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-9",
@@ -668,15 +668,15 @@
       "opponent": "Luana Santos",
       "startTime": "2026-11-01T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 260,
-      "betPct": 33,
-      "moneyPct": 47,
+      "odds": 270,
+      "betPct": 31,
+      "moneyPct": 41,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-9",
@@ -684,15 +684,15 @@
       "opponent": "Yana Santos",
       "startTime": "2026-11-01T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -325,
-      "betPct": 67,
-      "moneyPct": 53,
+      "odds": -340,
+      "betPct": 69,
+      "moneyPct": 59,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-10",
@@ -701,14 +701,14 @@
       "startTime": "2026-11-01T02:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -120,
-      "betPct": 58,
-      "moneyPct": 64,
+      "betPct": 61,
+      "moneyPct": 66,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=2",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261101-10",
@@ -717,14 +717,14 @@
       "startTime": "2026-11-01T02:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 100,
-      "betPct": 42,
-      "moneyPct": 36,
+      "betPct": 39,
+      "moneyPct": 34,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=2",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z"
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
     },
     {
       "gameId": "dk-ufc-20261031-zach-reese-mickey-gall",
@@ -733,13 +733,13 @@
       "gameStatus": "STATUS_SCHEDULED",
       "startTime": "2026-10-31T22:45:00Z",
       "odds": -425,
-      "betPct": 86,
+      "betPct": 89,
       "moneyPct": 97,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
       "extremeSplit": false
     },
     {
@@ -749,13 +749,13 @@
       "gameStatus": "STATUS_SCHEDULED",
       "startTime": "2026-10-31T22:45:00Z",
       "odds": 330,
-      "betPct": 14,
+      "betPct": 11,
       "moneyPct": 3,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=1",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
       "extremeSplit": false
     },
     {
@@ -764,14 +764,14 @@
       "opponent": "Jacobe Smith",
       "gameStatus": "STATUS_SCHEDULED",
       "startTime": "2026-11-01T01:45:00Z",
-      "odds": 215,
-      "betPct": 30,
-      "moneyPct": 32,
+      "odds": 210,
+      "betPct": 27,
+      "moneyPct": 17,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
       "extremeSplit": false
     },
     {
@@ -780,16 +780,16 @@
       "opponent": "Randy Brown",
       "gameStatus": "STATUS_SCHEDULED",
       "startTime": "2026-11-01T01:45:00Z",
-      "odds": -265,
-      "betPct": 70,
-      "moneyPct": 68,
+      "odds": -258,
+      "betPct": 73,
+      "moneyPct": 83,
       "betSource": "DraftKings Network live public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n7days&tb_eg=9034&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T13:00:34.458Z",
-      "oddsCheckedAt": "2026-10-31T13:00:34.458Z",
+      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "oddsCheckedAt": "2026-10-31T17:00:49.109Z",
       "extremeSplit": false
     }
   ],
-  "retrievedAt": "2026-10-31T13:00:34.458Z"
+  "retrievedAt": "2026-10-31T17:00:49.109Z"
 }
