@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-10-31",
-  "retrievedAt": "2026-10-31T17:00:49.109Z",
-  "status": "Oct 31 afternoon: 45 verified DraftKings moneyline fields changed",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
-  "note": "Oct 31 at approximately 1 PM ET: compared public DraftKings moneyline odds, % Bets and % Handle with morning repository snapshot. Only newly verified changed fields updated; started/historical records preserved. Source pages can be cached or change after retrieval; no other sportsbook or market used.",
+  "snapshotDate": "2026-11-01",
+  "retrievedAt": "2026-11-01T13:57:57Z",
+  "status": "Nov 1 DraftKings NFL moneyline pregame refresh: 10 changed team records",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+  "note": "Nov 1 pregame: compared 14 upcoming NFL matchups (28 sides) against DraftKings Network moneyline pages 1 and 2. Updated changed fields only. Older started-game snapshots preserved.",
   "teams": [
     {
       "gameId": "401873008",
@@ -553,15 +553,16 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 142,
       "betPct": 39,
-      "moneyPct": 39,
+      "moneyPct": 40,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1"
     },
     {
       "gameId": "dk-nfl-20261101-7",
@@ -571,15 +572,16 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -170,
       "betPct": 61,
-      "moneyPct": 61,
+      "moneyPct": 60,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1"
     },
     {
       "gameId": "dk-nfl-20261101-8",
@@ -625,15 +627,16 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 114,
       "betPct": 59,
-      "moneyPct": 70,
+      "moneyPct": 72,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:20.341Z",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
-      "oddsCheckedAt": "2026-10-31T13:00:20.341Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1"
     },
     {
       "gameId": "dk-nfl-20261101-9",
@@ -643,15 +646,16 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -135,
       "betPct": 41,
-      "moneyPct": 30,
+      "moneyPct": 28,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
       "extremeSplit": false,
-      "sourceCheckedAt": "2026-10-31T13:00:20.341Z",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=1",
-      "oddsCheckedAt": "2026-10-31T13:00:20.341Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1"
     },
     {
       "gameId": "dk-nfl-20261101-10",
@@ -764,15 +768,16 @@
       "startTime": "2026-11-01T21:25:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -118,
-      "betPct": 63,
-      "moneyPct": 47,
+      "betPct": 64,
+      "moneyPct": 49,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-2026-11-01-broncos-chiefs",
@@ -781,15 +786,16 @@
       "startTime": "2026-11-01T21:25:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -102,
-      "betPct": 37,
-      "moneyPct": 53,
+      "betPct": 36,
+      "moneyPct": 51,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-2026-11-02-eagles-commanders",
@@ -798,15 +804,16 @@
       "startTime": "2026-11-02T01:20:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 210,
-      "betPct": 23,
-      "moneyPct": 35,
+      "betPct": 22,
+      "moneyPct": 38,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-2026-11-02-eagles-commanders",
@@ -815,15 +822,16 @@
       "startTime": "2026-11-02T01:20:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -258,
-      "betPct": 77,
-      "moneyPct": 65,
+      "betPct": 78,
+      "moneyPct": 62,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-2026-11-03-bears-seahawks",
@@ -833,14 +841,15 @@
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 142,
       "betPct": 46,
-      "moneyPct": 52,
+      "moneyPct": 58,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T13:00:20.341Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T13:00:20.341Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-2026-11-03-bears-seahawks",
@@ -849,15 +858,16 @@
       "startTime": "2026-11-03T01:20:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -170,
-      "betPct": 55,
-      "moneyPct": 48,
+      "betPct": 54,
+      "moneyPct": 42,
       "betSource": "DraftKings Network public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "sourceCheckedAt": "2026-10-31T17:00:49.109Z",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "sourceCheckedAt": "2026-11-01T13:57:57Z",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2",
-      "oddsCheckedAt": "2026-10-31T17:00:49.109Z"
+      "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2",
+      "oddsCheckedAt": "2026-11-01T13:57:57Z",
+      "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
     },
     {
       "gameId": "dk-nfl-20261105-jax-bal",
@@ -891,8 +901,9 @@
     }
   ],
   "additionalSourceUrls": [
-    "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline&tb_page=5"
+    "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+    "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=NFL&tb_emt=Moneyline&tb_page=2"
   ],
-  "oddsSourceUrl": "https://dknetwork.draftkings.com/moneyline-total-spread/?itm_source=Pills",
-  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2"
+  "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1",
+  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_emt=Moneyline&tb_page=1"
 }
