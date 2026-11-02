@@ -1,0 +1,68 @@
+{
+  "snapshotDate": "2026-11-02",
+  "status": "DraftKings published moneyline snapshot (not live verified)",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NCAA+Basketball&tb_edate=n7days&tb_eg=92483&tb_page=2",
+  "note": "Only games with complete DraftKings moneyline odds, Bets % and Handle % included. Published indexed snapshot; numbers can change.",
+  "teams": [
+    {
+      "gameId": "ncaab-2026-11-02-purdue-gonzaga",
+      "team": "Purdue",
+      "opponent": "Gonzaga",
+      "startTime": "2026-11-03T00:30:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 200,
+      "betPct": 21,
+      "moneyPct": 66
+    },
+    {
+      "gameId": "ncaab-2026-11-02-purdue-gonzaga",
+      "team": "Gonzaga",
+      "opponent": "Purdue",
+      "startTime": "2026-11-03T00:30:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -245,
+      "betPct": 79,
+      "moneyPct": 34
+    },
+    {
+      "gameId": "ncaab-2026-11-02-ohio-state-byu",
+      "team": "Ohio State",
+      "opponent": "BYU",
+      "startTime": "2026-11-03T01:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 124,
+      "betPct": 70,
+      "moneyPct": 2
+    },
+    {
+      "gameId": "ncaab-2026-11-02-ohio-state-byu",
+      "team": "BYU",
+      "opponent": "Ohio State",
+      "startTime": "2026-11-03T01:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -148,
+      "betPct": 30,
+      "moneyPct": 98
+    },
+    {
+      "gameId": "ncaab-2026-11-02-ucla-arizona",
+      "team": "UCLA",
+      "opponent": "Arizona",
+      "startTime": "2026-11-03T03:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 170,
+      "betPct": 29,
+      "moneyPct": 2
+    },
+    {
+      "gameId": "ncaab-2026-11-02-ucla-arizona",
+      "team": "Arizona",
+      "opponent": "UCLA",
+      "startTime": "2026-11-03T03:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -205,
+      "betPct": 71,
+      "moneyPct": 98
+    }
+  ]
+}
