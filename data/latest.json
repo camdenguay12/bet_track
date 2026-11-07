@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-11-06",
-  "retrievedAt": "2026-11-06T13:56:06Z",
+  "snapshotDate": "2026-11-07",
+  "retrievedAt": "2026-11-07T14:03:56Z",
   "status": "partial verified DraftKings moneyline",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3",
-  "note": "Nov 6 6:50 AM ET DraftKings moneyline table; 8 upcoming matchups verified. Existing started games preserved; other pages not exhaustively checked.",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_page=1",
+  "note": "Nov 7 partial verified moneyline refresh; only first 4 NBA / first 5 NFL matchups from same DraftKings page; historical and started-game records preserved. Page updated at 8:38 AM ET.",
   "teams": [
     {
       "gameId": "401909093",
@@ -3288,7 +3288,103 @@
       "moneyPct": 19,
       "betSource": "DraftKings public moneyline betting splits",
       "sourceMarket": "DraftKings Moneyline"
+    },
+    {
+      "gameId": "dk-nba-20261107-denver-nuggets-indiana-pacers",
+      "team": "Denver Nuggets",
+      "opponent": "Indiana Pacers",
+      "startTime": "2026-11-07T22:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -268,
+      "betPct": 92,
+      "moneyPct": 99,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-denver-nuggets-indiana-pacers",
+      "team": "Indiana Pacers",
+      "opponent": "Denver Nuggets",
+      "startTime": "2026-11-07T22:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 220,
+      "betPct": 8,
+      "moneyPct": 1,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-brooklyn-nets-atlanta-hawks",
+      "team": "Brooklyn Nets",
+      "opponent": "Atlanta Hawks",
+      "startTime": "2026-11-08T00:40:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 221,
+      "betPct": 5,
+      "moneyPct": 5,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-brooklyn-nets-atlanta-hawks",
+      "team": "Atlanta Hawks",
+      "opponent": "Brooklyn Nets",
+      "startTime": "2026-11-08T00:40:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -269,
+      "betPct": 95,
+      "moneyPct": 95,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-washington-wizards-oklahoma-city-thunder",
+      "team": "Washington Wizards",
+      "opponent": "Oklahoma City Thunder",
+      "startTime": "2026-11-08T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 380,
+      "betPct": 4,
+      "moneyPct": 9,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-washington-wizards-oklahoma-city-thunder",
+      "team": "Oklahoma City Thunder",
+      "opponent": "Washington Wizards",
+      "startTime": "2026-11-08T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -497,
+      "betPct": 96,
+      "moneyPct": 91,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-new-york-knicks-cleveland-cavaliers",
+      "team": "New York Knicks",
+      "opponent": "Cleveland Cavaliers",
+      "startTime": "2026-11-08T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -191,
+      "betPct": 75,
+      "moneyPct": 81,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-nba-20261107-new-york-knicks-cleveland-cavaliers",
+      "team": "Cleveland Cavaliers",
+      "opponent": "New York Knicks",
+      "startTime": "2026-11-08T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 160,
+      "betPct": 25,
+      "moneyPct": 19,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
     }
   ],
-  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=1"
+  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_page=1"
 }
