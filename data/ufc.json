@@ -1,10 +1,10 @@
 {
   "league": "UFC",
-  "snapshotDate": "2026-11-06",
+  "snapshotDate": "2026-11-09",
   "status": "partial verified DraftKings moneyline",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL+Preseason&tb_edate=n30days&tb_eg=NFL+Preseason&tb_page=4",
-  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=1",
-  "note": "Nov 6 DraftKings public moneyline table (6:14 AM ET): Waldo Cortes-Acosta vs Johnny Walker verified; all other bouts and started games preserved. Source page includes mixed sports; only explicitly labeled moneyline bout used.",
+  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
+  "note": "Nov 9 DraftKings UFC moneyline table updated 4:05 AM ET; Harrison vs Nunes added; existing bout snapshots preserved. Other bouts not verified.",
   "teams": [
     {
       "gameId": "ufc333-1",
@@ -1365,6 +1365,30 @@
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z"
+    },
+    {
+      "gameId": "dk-ufc-20261115-harrison-nunes",
+      "team": "Kayla Harrison",
+      "opponent": "Amanda Nunes",
+      "startTime": "2026-11-15T05:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -192,
+      "betPct": 34,
+      "moneyPct": 18,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
+    },
+    {
+      "gameId": "dk-ufc-20261115-harrison-nunes",
+      "team": "Amanda Nunes",
+      "opponent": "Kayla Harrison",
+      "startTime": "2026-11-15T05:00:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 160,
+      "betPct": 66,
+      "moneyPct": 82,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits"
     }
   ],
   "retrievedAt": "2026-11-06T13:56:06Z"
