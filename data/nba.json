@@ -1,9 +1,8 @@
 {
   "snapshotDate": "2026-11-10",
-  "retrievedAt": "2026-11-10T17:44:00Z",
   "status": "partial verified DraftKings moneyline afternoon refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Nov 10 afternoon: updated only six unstarted NBA games from DraftKings official table marked 12:44 PM ET; unavailable fields and all other records preserved. Not an exact 1 PM quote.",
+  "note": "Nov 10 afternoon: updated only six unstarted NBA games from DraftKings official table marked 12:44 PM ET; unavailable fields and all other records preserved. Not an exact 1 PM quote. Retrieval timestamp omitted because the source only provides its 12:44 PM ET publication time.",
   "teams": [
     {
       "gameId": "401909093",
