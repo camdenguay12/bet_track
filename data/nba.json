@@ -1,8 +1,8 @@
 {
   "snapshotDate": "2026-11-11",
-  "status": "partial verified DraftKings moneyline morning refresh",
+  "status": "partial verified DraftKings moneyline afternoon refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "November 11: 10 upcoming NBA games verified from DraftKings official moneyline table marked 5:38 AM ET. Only new unstarted records appended; all existing snapshots preserved. Bets=ticket share, Handle=money share. Other leagues not represented in this file.",
+  "note": "November 11: 10 NBA matchups compared against morning 5:38 AM ET snapshot; DraftKings official moneyline table updated 12:35 PM ET. Only odds, moneyline Bets %, and Handle % refreshed. Other league data unchanged. Existing start times preserved; verify separately before using as schedule metadata.",
   "teams": [
     {
       "gameId": "401909093",
@@ -618,12 +618,12 @@
       "opponent": "Toronto Raptors",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -279,
-      "betPct": 96,
-      "moneyPct": 100,
+      "odds": -243,
+      "betPct": 92,
+      "moneyPct": 97,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-1",
@@ -631,12 +631,12 @@
       "opponent": "Boston Celtics",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 228,
-      "betPct": 4,
-      "moneyPct": 0,
+      "odds": 200,
+      "betPct": 8,
+      "moneyPct": 3,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-2",
@@ -644,12 +644,12 @@
       "opponent": "Washington Wizards",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -155,
-      "betPct": 65,
-      "moneyPct": 38,
+      "odds": -148,
+      "betPct": 57,
+      "moneyPct": 27,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-2",
@@ -657,12 +657,12 @@
       "opponent": "Indiana Pacers",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 131,
-      "betPct": 35,
-      "moneyPct": 62,
+      "odds": 124,
+      "betPct": 43,
+      "moneyPct": 73,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-3",
@@ -670,12 +670,12 @@
       "opponent": "Cleveland Cavaliers",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -173,
-      "betPct": 83,
-      "moneyPct": 99,
+      "odds": -180,
+      "betPct": 81,
+      "moneyPct": 92,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-3",
@@ -683,12 +683,12 @@
       "opponent": "New York Knicks",
       "startTime": "2026-11-13T00:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 146,
-      "betPct": 18,
-      "moneyPct": 1,
+      "odds": 151,
+      "betPct": 19,
+      "moneyPct": 8,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-4",
@@ -697,11 +697,11 @@
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -1200,
-      "betPct": 98,
-      "moneyPct": 89,
+      "betPct": 97,
+      "moneyPct": 78,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-4",
@@ -710,11 +710,11 @@
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 750,
-      "betPct": 2,
-      "moneyPct": 11,
+      "betPct": 3,
+      "moneyPct": 22,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-5",
@@ -722,12 +722,12 @@
       "opponent": "Memphis Grizzlies",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -174,
-      "betPct": 78,
-      "moneyPct": 97,
+      "odds": -167,
+      "betPct": 81,
+      "moneyPct": 99,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-5",
@@ -735,12 +735,12 @@
       "opponent": "Denver Nuggets",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 146,
-      "betPct": 22,
-      "moneyPct": 3,
+      "odds": 140,
+      "betPct": 19,
+      "moneyPct": 1,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-6",
@@ -748,12 +748,12 @@
       "opponent": "Milwaukee Bucks",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -620,
-      "betPct": 92,
-      "moneyPct": 99,
+      "odds": -790,
+      "betPct": 94,
+      "moneyPct": 90,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-6",
@@ -761,12 +761,12 @@
       "opponent": "Los Angeles Lakers",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 458,
-      "betPct": 8,
-      "moneyPct": 1,
+      "odds": 554,
+      "betPct": 6,
+      "moneyPct": 10,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-7",
@@ -774,12 +774,12 @@
       "opponent": "Brooklyn Nets",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -186,
-      "betPct": 75,
-      "moneyPct": 79,
+      "odds": -162,
+      "betPct": 74,
+      "moneyPct": 95,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-7",
@@ -787,12 +787,12 @@
       "opponent": "New Orleans Pelicans",
       "startTime": "2026-11-13T01:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 156,
-      "betPct": 25,
-      "moneyPct": 21,
+      "odds": 136,
+      "betPct": 26,
+      "moneyPct": 5,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-8",
@@ -800,12 +800,12 @@
       "opponent": "Utah Jazz",
       "startTime": "2026-11-13T02:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -179,
-      "betPct": 83,
-      "moneyPct": 6,
+      "odds": -148,
+      "betPct": 84,
+      "moneyPct": 67,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-8",
@@ -813,12 +813,12 @@
       "opponent": "Orlando Magic",
       "startTime": "2026-11-13T02:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 150,
-      "betPct": 17,
-      "moneyPct": 94,
+      "odds": 125,
+      "betPct": 16,
+      "moneyPct": 33,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-9",
@@ -826,12 +826,12 @@
       "opponent": "Golden State Warriors",
       "startTime": "2026-11-13T02:40:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -237,
-      "betPct": 63,
-      "moneyPct": 69,
+      "odds": -249,
+      "betPct": 71,
+      "moneyPct": 97,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-9",
@@ -839,12 +839,12 @@
       "opponent": "Houston Rockets",
       "startTime": "2026-11-13T02:40:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 196,
-      "betPct": 37,
-      "moneyPct": 31,
+      "odds": 205,
+      "betPct": 29,
+      "moneyPct": 3,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-10",
@@ -852,12 +852,12 @@
       "opponent": "Portland Trail Blazers",
       "startTime": "2026-11-13T03:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -116,
-      "betPct": 78,
-      "moneyPct": 32,
+      "odds": -113,
+      "betPct": 75,
+      "moneyPct": 64,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     },
     {
       "gameId": "dk-nba-20261111-10",
@@ -865,12 +865,12 @@
       "opponent": "Oklahoma City Thunder",
       "startTime": "2026-11-13T03:10:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -102,
-      "betPct": 22,
-      "moneyPct": 68,
+      "odds": -105,
+      "betPct": 25,
+      "moneyPct": 36,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-11 05:38 ET"
+      "sourceSnapshot": "2026-11-11 12:35 ET"
     }
   ]
 }
