@@ -1,8 +1,8 @@
 {
-  "snapshotDate": "2026-11-12",
-  "status": "partial verified DraftKings moneyline afternoon refresh",
+  "snapshotDate": "2026-11-13",
+  "status": "partial verified DraftKings moneyline morning refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "November 12: four upcoming NBA matchups verified from DraftKings moneyline table marked 03:14 AM ET. Started-game records preserved. Partial coverage.",
+  "note": "November 13: 0 existing upcoming NBA team/fighter records refreshed from DraftKings public moneyline table; earlier games and other records preserved. Partial coverage.",
   "teams": [
     {
       "gameId": "401909093",
