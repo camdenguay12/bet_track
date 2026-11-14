@@ -1,10 +1,10 @@
 {
   "league": "UFC",
-  "snapshotDate": "2026-11-13",
-  "status": "partial verified DraftKings moneyline morning refresh",
+  "snapshotDate": "2026-11-14",
+  "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline",
   "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-  "note": "November 13: 24 existing upcoming UFC team/fighter records refreshed from DraftKings public moneyline table; earlier games and other records preserved. Partial coverage.",
+  "note": "November 14: refreshed 16 existing upcoming records from DraftKings moneyline odds, Bets % and Handle %; all other records preserved. Partial coverage.",
   "teams": [
     {
       "gameId": "ufc333-1",
@@ -1264,18 +1264,18 @@
       "opponent": "Yousri Belgaroui",
       "startTime": "2026-11-15T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -155,
-      "betPct": 74,
-      "moneyPct": 76,
+      "odds": -162,
+      "betPct": 70,
+      "moneyPct": 73,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261107-caio-borralho-yousri-belgaroui",
@@ -1283,18 +1283,18 @@
       "opponent": "Caio Borralho",
       "startTime": "2026-11-15T00:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 130,
-      "betPct": 26,
-      "moneyPct": 24,
+      "odds": 136,
+      "betPct": 30,
+      "moneyPct": 27,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261107-kayla-harrison-amanda-nunes",
@@ -1302,18 +1302,18 @@
       "opponent": "Amanda Nunes",
       "startTime": "2026-11-15T05:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -170,
-      "betPct": 43,
-      "moneyPct": 15,
+      "odds": -166,
+      "betPct": 44,
+      "moneyPct": 16,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261107-kayla-harrison-amanda-nunes",
@@ -1321,18 +1321,18 @@
       "opponent": "Kayla Harrison",
       "startTime": "2026-11-15T05:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 142,
-      "betPct": 57,
-      "moneyPct": 85,
+      "odds": 140,
+      "betPct": 56,
+      "moneyPct": 84,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261107-ciryl-gane-josh-hokit",
@@ -1346,12 +1346,12 @@
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261107-ciryl-gane-josh-hokit",
@@ -1365,12 +1365,12 @@
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "oddsSource": "DraftKings Network public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
       "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=2",
       "sourceCheckedAt": "2026-11-02T14:05:31Z",
       "oddsCheckedAt": "2026-11-02T14:05:31Z",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261115-harrison-nunes",
@@ -1378,13 +1378,13 @@
       "opponent": "Amanda Nunes",
       "startTime": "2026-11-15T05:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -170,
-      "betPct": 43,
-      "moneyPct": 15,
+      "odds": -166,
+      "betPct": 44,
+      "moneyPct": 16,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261115-harrison-nunes",
@@ -1392,13 +1392,13 @@
       "opponent": "Kayla Harrison",
       "startTime": "2026-11-15T05:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 142,
-      "betPct": 57,
-      "moneyPct": 85,
+      "odds": 140,
+      "betPct": 56,
+      "moneyPct": 84,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-evanelder-samuelsanc",
@@ -1518,13 +1518,13 @@
       "opponent": "Terrance McKinney",
       "startTime": "2026-11-15T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 180,
-      "betPct": 27,
-      "moneyPct": 41,
+      "odds": 170,
+      "betPct": 28,
+      "moneyPct": 45,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-jimmiller-terrancemc",
@@ -1532,13 +1532,13 @@
       "opponent": "Jim Miller",
       "startTime": "2026-11-15T00:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -218,
-      "betPct": 73,
-      "moneyPct": 59,
+      "odds": -205,
+      "betPct": 72,
+      "moneyPct": 55,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-drewdober-chrisdunca",
@@ -1547,12 +1547,12 @@
       "startTime": "2026-11-15T01:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 150,
-      "betPct": 47,
-      "moneyPct": 73,
+      "betPct": 50,
+      "moneyPct": 75,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-drewdober-chrisdunca",
@@ -1561,12 +1561,12 @@
       "startTime": "2026-11-15T01:15:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -180,
-      "betPct": 53,
-      "moneyPct": 27,
+      "betPct": 50,
+      "moneyPct": 25,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-stephentho-charlierad",
@@ -1574,13 +1574,13 @@
       "opponent": "Charlie Radtke",
       "startTime": "2026-11-15T01:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -155,
+      "odds": -148,
       "betPct": 56,
-      "moneyPct": 50,
+      "moneyPct": 47,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-stephentho-charlierad",
@@ -1588,13 +1588,13 @@
       "opponent": "Stephen Thompson",
       "startTime": "2026-11-15T01:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 130,
+      "odds": 124,
       "betPct": 44,
-      "moneyPct": 50,
+      "moneyPct": 53,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261110-bilalhasan-luisgurule",
@@ -1657,12 +1657,12 @@
       "startTime": "2026-11-15T02:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -155,
-      "betPct": 62,
-      "moneyPct": 17,
+      "betPct": 59,
+      "moneyPct": 24,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     },
     {
       "gameId": "dk-ufc-20261114-3",
@@ -1671,12 +1671,12 @@
       "startTime": "2026-11-15T02:45:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 130,
-      "betPct": 38,
-      "moneyPct": 83,
+      "betPct": 41,
+      "moneyPct": 76,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n30days&tb_eg=0&tb_emt=Moneyline&tb_page=4",
-      "sourceSnapshot": "2026-11-13 morning ET"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+      "sourceSnapshot": "2026-11-14 DraftKings published table"
     }
   ],
   "retrievedAt": "2026-11-10T14:01:22Z"
