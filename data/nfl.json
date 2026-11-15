@@ -1,9 +1,9 @@
 {
-  "snapshotDate": "2026-11-14",
+  "snapshotDate": "2026-11-15",
   "retrievedAt": "2026-11-10T14:01:22Z",
-  "status": "partial verified DraftKings moneyline refresh (9:44 AM source)",
+  "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline",
-  "note": "November 14 afternoon: partial comparison with DraftKings official moneyline table published 9:44 AM ET, later than morning GitHub snapshot; updated only matching upcoming-game fields. Other values preserved. Not a 1 PM published snapshot.",
+  "note": "November 15: 0 records added and 10 refreshed; other records and started-game snapshots preserved.",
   "teams": [
     {
       "gameId": "401873008",
@@ -1472,12 +1472,12 @@
       "startTime": "2026-11-15T14:30:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 124,
-      "betPct": 40,
-      "moneyPct": 44,
+      "betPct": 48,
+      "moneyPct": 60,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-3",
@@ -1486,12 +1486,12 @@
       "startTime": "2026-11-15T14:30:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -148,
-      "betPct": 60,
-      "moneyPct": 56,
+      "betPct": 52,
+      "moneyPct": 40,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-4",
@@ -1500,12 +1500,12 @@
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -700,
-      "betPct": 97,
-      "moneyPct": 78,
+      "betPct": 96,
+      "moneyPct": 81,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-4",
@@ -1514,12 +1514,12 @@
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 500,
-      "betPct": 3,
-      "moneyPct": 22,
+      "betPct": 4,
+      "moneyPct": 19,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-5",
@@ -1527,13 +1527,13 @@
       "opponent": "New York Jets",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -425,
+      "odds": -440,
       "betPct": 97,
       "moneyPct": 92,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-5",
@@ -1541,13 +1541,13 @@
       "opponent": "Buffalo Bills",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 330,
+      "odds": 340,
       "betPct": 3,
       "moneyPct": 8,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-14 DraftKings published table"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-6",
@@ -1555,13 +1555,13 @@
       "opponent": "Atlanta Falcons",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -175,
-      "betPct": 91,
-      "moneyPct": 82,
+      "odds": -180,
+      "betPct": 87,
+      "moneyPct": 84,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-13 12:32 PM ET"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-6",
@@ -1569,13 +1569,13 @@
       "opponent": "Kansas City Chiefs",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 145,
-      "betPct": 9,
-      "moneyPct": 18,
+      "odds": 150,
+      "betPct": 13,
+      "moneyPct": 16,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-13 12:32 PM ET"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-7",
@@ -1583,13 +1583,13 @@
       "opponent": "Cleveland Browns",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -238,
-      "betPct": 87,
+      "odds": -225,
+      "betPct": 85,
       "moneyPct": 85,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-13 12:32 PM ET"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-7",
@@ -1597,13 +1597,13 @@
       "opponent": "Houston Texans",
       "startTime": "2026-11-15T18:00:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 195,
-      "betPct": 13,
+      "odds": 185,
+      "betPct": 15,
       "moneyPct": 15,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-      "sourceSnapshot": "2026-11-13 12:32 PM ET"
+      "sourceSnapshot": "2026-11-15 8:41 AM ET"
     },
     {
       "gameId": "dk-nfl-20261109-8",
