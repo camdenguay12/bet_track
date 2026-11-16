@@ -1,6 +1,6 @@
 {
   "snapshotDate": "2026-11-16",
-  "retrievedAt": "2026-11-16T15:05:00Z",
+  "retrievedAt": "2026-11-16T18:02:49Z",
   "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline",
   "note": "Nov 16 afternoon partial check: DraftKings official moneyline table updated 10:05 AM ET; updated only matched future games and verified fields; all other records preserved. Not a 1 PM snapshot.",
@@ -1778,5 +1778,6 @@
     "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n7days&tb_eg=88808&tb_page=2"
   ],
   "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline"
+  "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline",
+  "sourceUpdatedAt": "2026-11-16 10:05 AM ET"
 }
