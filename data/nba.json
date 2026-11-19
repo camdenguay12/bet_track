@@ -1,8 +1,8 @@
 {
-  "snapshotDate": "2026-11-18",
+  "snapshotDate": "2026-11-19",
   "status": "partial verified DraftKings moneyline refresh",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n30days&tb_eg=209533&tb_emt=Moneyline",
-  "note": "Nov 18 verified DraftKings 5:11 AM ET moneyline snapshot; upcoming games only, older records preserved.",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3",
+  "note": "Nov 19 verified DraftKings moneyline-only snapshot; updated 8 future team records, historical records preserved.",
   "teams": [
     {
       "gameId": "401909093",
@@ -1935,7 +1935,119 @@
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-18 5:11 AM ET",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n30days&tb_eg=209533&tb_emt=Moneyline"
+    },
+    {
+      "gameId": "dk-20261119-clippers-spurs",
+      "team": "Los Angeles Clippers",
+      "opponent": "San Antonio Spurs",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 670,
+      "betPct": 6,
+      "moneyPct": 0,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-clippers-spurs",
+      "team": "San Antonio Spurs",
+      "opponent": "Los Angeles Clippers",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -1040,
+      "betPct": 94,
+      "moneyPct": 100,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-blazers-bucks",
+      "team": "Portland Trail Blazers",
+      "opponent": "Milwaukee Bucks",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -406,
+      "betPct": 98,
+      "moneyPct": 100,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-blazers-bucks",
+      "team": "Milwaukee Bucks",
+      "opponent": "Portland Trail Blazers",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 319,
+      "betPct": 2,
+      "moneyPct": 0,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-warriors-grizzlies",
+      "team": "Golden State Warriors",
+      "opponent": "Memphis Grizzlies",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 231,
+      "betPct": 16,
+      "moneyPct": 8,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-warriors-grizzlies",
+      "team": "Memphis Grizzlies",
+      "opponent": "Golden State Warriors",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -284,
+      "betPct": 84,
+      "moneyPct": 92,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-knicks-timberwolves",
+      "team": "New York Knicks",
+      "opponent": "Minnesota Timberwolves",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -113,
+      "betPct": 75,
+      "moneyPct": 94,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-20261119-knicks-timberwolves",
+      "team": "Minnesota Timberwolves",
+      "opponent": "New York Knicks",
+      "startTime": "2026-11-20T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -104,
+      "betPct": 25,
+      "moneyPct": 6,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-19 7:20 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
     }
   ],
-  "retrievedAt": "2026-11-18T13:57:00Z"
+  "retrievedAt": "2026-11-19T14:01:22Z"
 }
