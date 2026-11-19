@@ -1,10 +1,10 @@
 {
   "league": "UFC",
-  "snapshotDate": "2026-11-18",
+  "snapshotDate": "2026-11-19",
   "status": "partial verified DraftKings moneyline refresh",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3",
   "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_edate=n7days&tb_eg=9034&tb_page=2",
-  "note": "Nov 18 verified DraftKings UFC moneyline splits for ten upcoming Nov 21 bouts; historical entries preserved.",
+  "note": "Nov 19 verified DraftKings moneyline refresh for 10 future fighter records; older records preserved.",
   "teams": [
     {
       "gameId": "ufc333-1",
@@ -1824,13 +1824,13 @@
       "opponent": "Santiago Luna",
       "startTime": "2026-11-21T17:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -290,
-      "betPct": 93,
-      "moneyPct": 94,
+      "odds": -285,
+      "betPct": 95,
+      "moneyPct": 96,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-aleksandre-topuria-santiago-luna",
@@ -1838,13 +1838,13 @@
       "opponent": "Aleksandre Topuria",
       "startTime": "2026-11-21T17:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 235,
-      "betPct": 7,
-      "moneyPct": 6,
+      "odds": 230,
+      "betPct": 5,
+      "moneyPct": 4,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-ikram-aliskerov-jared-cannonier",
@@ -1852,13 +1852,13 @@
       "opponent": "Ikram Aliskerov",
       "startTime": "2026-11-21T18:15:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 230,
-      "betPct": 28,
-      "moneyPct": 11,
+      "odds": 240,
+      "betPct": 23,
+      "moneyPct": 24,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-ikram-aliskerov-jared-cannonier",
@@ -1866,13 +1866,13 @@
       "opponent": "Jared Cannonier",
       "startTime": "2026-11-21T18:15:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -285,
-      "betPct": 72,
-      "moneyPct": 89,
+      "odds": -298,
+      "betPct": 77,
+      "moneyPct": 76,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-asu-almabayev-kyoji-horiguchi",
@@ -1880,13 +1880,13 @@
       "opponent": "Asu Almabayev",
       "startTime": "2026-11-21T18:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -198,
-      "betPct": 91,
-      "moneyPct": 94,
+      "odds": -185,
+      "betPct": 85,
+      "moneyPct": 81,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-asu-almabayev-kyoji-horiguchi",
@@ -1894,13 +1894,13 @@
       "opponent": "Kyoji Horiguchi",
       "startTime": "2026-11-21T18:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 164,
-      "betPct": 9,
-      "moneyPct": 6,
+      "odds": 154,
+      "betPct": 15,
+      "moneyPct": 19,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-aljamain-sterling-kevin-vallejos",
@@ -1909,12 +1909,12 @@
       "startTime": "2026-11-21T19:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 110,
-      "betPct": 49,
-      "moneyPct": 29,
+      "betPct": 58,
+      "moneyPct": 40,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-aljamain-sterling-kevin-vallejos",
@@ -1923,12 +1923,12 @@
       "startTime": "2026-11-21T19:45:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -130,
-      "betPct": 51,
-      "moneyPct": 71,
+      "betPct": 42,
+      "moneyPct": 60,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-jiri-prochazka-navajo-stirling",
@@ -1936,13 +1936,13 @@
       "opponent": "Navajo Stirling",
       "startTime": "2026-11-21T20:15:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 130,
-      "betPct": 32,
-      "moneyPct": 19,
+      "odds": 145,
+      "betPct": 37,
+      "moneyPct": 37,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     },
     {
       "gameId": "dk-ufc-20261121-jiri-prochazka-navajo-stirling",
@@ -1950,14 +1950,14 @@
       "opponent": "Jiri Prochazka",
       "startTime": "2026-11-21T20:15:00.000Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -155,
-      "betPct": 68,
-      "moneyPct": 81,
+      "odds": -175,
+      "betPct": 63,
+      "moneyPct": 63,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
-      "sourceSnapshot": "2026-11-18 DK published table",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline"
+      "sourceSnapshot": "2026-11-19 7:23 AM ET / 7:35 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=UFC&tb_edate=n30days&tb_eg=9034&tb_emt=Moneyline&tb_page=3"
     }
   ],
-  "retrievedAt": "2026-11-18T13:57:00Z"
+  "retrievedAt": "2026-11-19T14:01:22Z"
 }
