@@ -3,7 +3,7 @@
   "retrievedAt": "2026-11-20T14:03:46Z",
   "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Nov 20: refreshed only matched upcoming NFL records from official DraftKings 8:44 AM ET moneyline table; historical records preserved.",
+  "note": "Nov 20 afternoon: updated only verified moneyline fields for Chicago Bears vs New Orleans Saints (12:41 PM ET DraftKings table); other fields and historical records preserved.",
   "teams": [
     {
       "gameId": "401873008",
@@ -1779,7 +1779,7 @@
       "opponent": "New Orleans Saints",
       "startTime": "2026-11-22T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -593,
+      "odds": -600,
       "betPct": 91,
       "moneyPct": 91,
       "sourceMarket": "DraftKings Moneyline",
@@ -1793,7 +1793,7 @@
       "opponent": "Chicago Bears",
       "startTime": "2026-11-22T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 442,
+      "odds": 447,
       "betPct": 9,
       "moneyPct": 9,
       "sourceMarket": "DraftKings Moneyline",
