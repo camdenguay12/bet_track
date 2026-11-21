@@ -1,9 +1,9 @@
 {
   "snapshotDate": "2026-11-21",
-  "retrievedAt": "2026-11-21T14:01:27Z",
+  "retrievedAt": "2026-11-21T18:02:32Z",
   "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
-  "note": "Nov 21 8:50 AM ET DraftKings moneyline table: refreshed 18 team records across nine Nov 22 NFL games; historical and other records preserved.",
+  "note": "Nov 21 afternoon: updated 6 verified moneyline fields for Nov 22 Chicago–New Orleans using DraftKings 12:56 PM ET table; other games and unavailable fields preserved.",
   "teams": [
     {
       "gameId": "401873008",
@@ -1779,9 +1779,9 @@
       "opponent": "New Orleans Saints",
       "startTime": "2026-11-22T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -600,
-      "betPct": 91,
-      "moneyPct": 90,
+      "odds": -594,
+      "betPct": 92,
+      "moneyPct": 86,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-21 8:50 AM ET",
@@ -1793,9 +1793,9 @@
       "opponent": "Chicago Bears",
       "startTime": "2026-11-22T18:00:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 446,
-      "betPct": 9,
-      "moneyPct": 10,
+      "odds": 443,
+      "betPct": 8,
+      "moneyPct": 14,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-21 8:50 AM ET",
@@ -2031,5 +2031,5 @@
   ],
   "oddsSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
   "betSourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NFL&tb_edate=n30days&tb_eg=NFL&tb_emt=Moneyline",
-  "sourceUpdatedAt": "2026-11-21 8:50 AM ET"
+  "sourceUpdatedAt": "2026-11-21 12:56 PM ET"
 }
