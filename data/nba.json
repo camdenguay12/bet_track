@@ -1,8 +1,8 @@
 {
-  "snapshotDate": "2026-11-19",
+  "snapshotDate": "2026-11-23",
   "status": "partial verified DraftKings moneyline refresh",
-  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3",
-  "note": "Nov 19 verified DraftKings moneyline-only snapshot; updated 8 future team records, historical records preserved.",
+  "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3",
+  "note": "Nov 23 DraftKings 8:02 AM ET moneyline-only snapshot: added 4 future NBA games (8 team records); preserved all existing records.",
   "teams": [
     {
       "gameId": "401909093",
@@ -2047,7 +2047,119 @@
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-19 7:20 AM ET",
       "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n7days&tb_eg=42648&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-suns-pelicans",
+      "team": "New Orleans Pelicans",
+      "opponent": "Phoenix Suns",
+      "startTime": "2026-11-24T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 131,
+      "betPct": 20,
+      "moneyPct": 1,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-suns-pelicans",
+      "team": "Phoenix Suns",
+      "opponent": "New Orleans Pelicans",
+      "startTime": "2026-11-24T01:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -155,
+      "betPct": 80,
+      "moneyPct": 99,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-clippers-rockets",
+      "team": "Houston Rockets",
+      "opponent": "Los Angeles Clippers",
+      "startTime": "2026-11-24T01:40:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -650,
+      "betPct": 93,
+      "moneyPct": 18,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-clippers-rockets",
+      "team": "Los Angeles Clippers",
+      "opponent": "Houston Rockets",
+      "startTime": "2026-11-24T01:40:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 470,
+      "betPct": 7,
+      "moneyPct": 82,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-spurs-kings",
+      "team": "Sacramento Kings",
+      "opponent": "San Antonio Spurs",
+      "startTime": "2026-11-24T03:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 371,
+      "betPct": 5,
+      "moneyPct": 1,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-spurs-kings",
+      "team": "San Antonio Spurs",
+      "opponent": "Sacramento Kings",
+      "startTime": "2026-11-24T03:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -484,
+      "betPct": 95,
+      "moneyPct": 99,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-jazz-lakers",
+      "team": "Los Angeles Lakers",
+      "opponent": "Utah Jazz",
+      "startTime": "2026-11-24T03:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": -790,
+      "betPct": 95,
+      "moneyPct": 99,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+    },
+    {
+      "gameId": "dk-nba-20261123-jazz-lakers",
+      "team": "Utah Jazz",
+      "opponent": "Los Angeles Lakers",
+      "startTime": "2026-11-24T03:10:00Z",
+      "gameStatus": "STATUS_SCHEDULED",
+      "odds": 554,
+      "betPct": 5,
+      "moneyPct": 1,
+      "sourceMarket": "DraftKings Moneyline",
+      "betSource": "DraftKings public moneyline betting splits",
+      "sourceSnapshot": "2026-11-23 8:02 AM ET",
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
     }
   ],
-  "retrievedAt": "2026-11-19T14:01:22Z"
+  "retrievedAt": "2026-11-23T13:58:38Z"
 }
