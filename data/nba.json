@@ -2,7 +2,7 @@
   "snapshotDate": "2026-11-23",
   "status": "partial verified DraftKings moneyline refresh",
   "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3",
-  "note": "Nov 23 DraftKings 8:02 AM ET moneyline-only snapshot: added 4 future NBA games (8 team records); preserved all existing records.",
+  "note": "Nov 23 afternoon: 14 verified NBA moneyline field changes from DraftKings published 11:50 AM ET; unavailable fields and all other records preserved.",
   "teams": [
     {
       "gameId": "401909093",
@@ -2083,12 +2083,12 @@
       "startTime": "2026-11-24T01:40:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -650,
-      "betPct": 93,
-      "moneyPct": 18,
+      "betPct": 94,
+      "moneyPct": 30,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     },
     {
       "gameId": "dk-nba-20261123-clippers-rockets",
@@ -2097,12 +2097,12 @@
       "startTime": "2026-11-24T01:40:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 470,
-      "betPct": 7,
-      "moneyPct": 82,
+      "betPct": 6,
+      "moneyPct": 70,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     },
     {
       "gameId": "dk-nba-20261123-spurs-kings",
@@ -2111,12 +2111,12 @@
       "startTime": "2026-11-24T03:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": 371,
-      "betPct": 5,
-      "moneyPct": 1,
+      "betPct": 4,
+      "moneyPct": 5,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     },
     {
       "gameId": "dk-nba-20261123-spurs-kings",
@@ -2125,12 +2125,12 @@
       "startTime": "2026-11-24T03:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
       "odds": -484,
-      "betPct": 95,
-      "moneyPct": 99,
+      "betPct": 96,
+      "moneyPct": 95,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     },
     {
       "gameId": "dk-nba-20261123-jazz-lakers",
@@ -2138,13 +2138,13 @@
       "opponent": "Utah Jazz",
       "startTime": "2026-11-24T03:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": -790,
-      "betPct": 95,
-      "moneyPct": 99,
+      "odds": -800,
+      "betPct": 97,
+      "moneyPct": 100,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     },
     {
       "gameId": "dk-nba-20261123-jazz-lakers",
@@ -2152,13 +2152,13 @@
       "opponent": "Los Angeles Lakers",
       "startTime": "2026-11-24T03:10:00Z",
       "gameStatus": "STATUS_SCHEDULED",
-      "odds": 554,
-      "betPct": 5,
-      "moneyPct": 1,
+      "odds": 558,
+      "betPct": 3,
+      "moneyPct": 0,
       "sourceMarket": "DraftKings Moneyline",
       "betSource": "DraftKings public moneyline betting splits",
       "sourceSnapshot": "2026-11-23 8:02 AM ET",
-      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=Sports&tb_edate=n7days&tb_eg=0&tb_emt=Moneyline&tb_page=3"
+      "sourceUrl": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?itm_content=NBA&tb_edate=n30days&tb_eg=42648&tb_emt=0"
     }
   ],
   "retrievedAt": "2026-11-23T13:58:38Z"
